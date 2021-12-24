@@ -4,6 +4,7 @@
         "nomCat": "Blanqueta de la col",
         "nomCast": "Blanquita de la col",
         "nomEng": "Small White",
+        "familia": "Pieridae",
         "imatge": "",
         "determinada": true
     },
@@ -12,6 +13,7 @@
         "nomCat": "Bruna de bosc",
         "nomCast": "Mariposa de los muros",
         "nomEng": "Speckled Wood",
+        "familia": "Nymphalidae",
         "imatge": "",
         "determinada": true
     },
@@ -20,6 +22,7 @@
         "nomCat": "Margenera comuna",
         "nomCast": "Saltacercas",
         "nomEng": "Wall Brown",
+        "familia": "Nymphalidae",
         "imatge": "",
         "determinada": true
     },
@@ -28,6 +31,7 @@
         "nomCat": "",
         "nomCast": "",
         "nomEng": "",
+        "familia": "Pieridae",
         "imatge": "",
         "determinada": false
     },
@@ -36,6 +40,7 @@
         "nomCat": "Blaveta comuna",
         "nomCast": "Ícaro",
         "nomEng": "Common Blue",
+        "familia": "Lycaenidae",
         "imatge": "",
         "determinada": true
     },
@@ -44,6 +49,7 @@
         "nomCat": "Papallona reina",
         "nomCast": "Macaón",
         "nomEng": "Swallowtail",
+        "familia": "Papilionidae",
         "imatge": "",
         "determinada": true
     },
@@ -52,6 +58,7 @@
         "nomCat": "Atalanta",
         "nomCast": "Atalanta",
         "nomEng": "Red Admiral",
+        "familia": "Nymphalidae",
         "imatge": "",
         "determinada": true
     },
@@ -60,6 +67,7 @@
         "nomCat": "Barrinadora del gerani",
         "nomCast": "Taladro del geranio",
         "nomEng": "Geranium bronze",
+        "familia": "Lycaenidae",
         "imatge": "",
         "determinada": true
     },
@@ -68,6 +76,7 @@
         "nomCat": "Blaveta dels pèsols",
         "nomCast": "Estriada canela",
         "nomEng": "Long-tailed Blue",
+        "familia": "Lycaenidae",
         "imatge": "",
         "determinada": true
     },
@@ -76,281 +85,368 @@
         "nomCat": "Reina zebrada",
         "nomCast": "Chupaleches",
         "nomEng": "Southern Scarce Swallowtail",
+        "familia": "Papilionidae",
         "imatge": "",
         "determinada": true
     },
     {
         "nomCientific": "Leptotes pirithous",
+        "nomCat": "Blaveta estriada",
+        "nomCast": "Estriada gris",
+        "nomEng": "Lang's Short-tailed Blue",
+        "familia": "Lycaenidae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Gonepteryx cleopatra",
+        "nomCat": "Cleòpatra",
+        "nomCast": "Cleopatra",
+        "nomEng": "Cleopatra",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Vanessa cardui",
+        "nomCat": "Migradora dels cards",
+        "nomCast": "Cardera",
+        "nomEng": "Painted Lady",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Pieris Brassicae",
+        "nomCat": "Blanca de la col",
+        "nomCast": "Blanca de la col",
+        "nomEng": "Large White",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Colias crocea",
+        "nomCat": "Safranera de l'alfals",
+        "nomCast": "Colias común",
+        "nomEng": "Clouded Yellow",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Pyronia cecilia",
+        "nomCat": "Saltabardisses de solell",
+        "nomCast": "Lobito listado",
+        "nomEng": "Southern Gatekeeper",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Euchloe crameri",
+        "nomCat": "Marbrada comuna",
+        "nomCast": "Blanquiverdosa común",
+        "nomEng": "Western Dappled White",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Charaxes jasius",
+        "nomCat": "Papallona de l'arboç",
+        "nomCast": "Cuatro colas",
+        "nomEng": "Two-tailed Pasha",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Celastrina argiolus",
+        "nomCat": "Blaveta de l'heura",
+        "nomCast": "Náyade",
+        "nomEng": "Holly Blue",
+        "familia": "Lycaenidae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Gonepteryx rhamni",
+        "nomCat": "Llimonera",
+        "nomCast": "Limonera",
+        "nomEng": "Brimstone",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Aricia cramera",
+        "nomCat": "Moreneta meridional",
+        "nomCast": "Morena común",
+        "nomEng": "Southern Brown Argus",
+        "familia": "Lycaenidae",
+        "imatge": "",
+        "determinada": true
+    },
+    {
+        "nomCientific": "Lycaenidae",
         "nomCat": "",
         "nomCast": "",
         "nomEng": "",
+        "familia": "Lycaenidae",
+        "imatge": "",
+        "determinada": false
+    },
+    {
+        "nomCientific": "Lycaena phlaeas",
+        "nomCat": "Coure comú",
+        "nomCast": "Manto común",
+        "nomEng": "Small Copper",
+        "familia": "Lycaenidae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Gonepteryx sp.",
+        "nomCat": "",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": false
+    },
+    {
+        "nomCientific": "Pyronia bathseba",
+        "nomCat": "Saltabardisses cintada",
+        "nomCast": "Lobito de banda blanca",
+        "nomEng": "Spanish Gatekeeper",
+        "familia": "Nymphalidae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Pontia daplidice",
+        "nomCat": "Pòntia comuna",
+        "nomCast": "Blanquiverdosa",
+        "nomEng": "Bath White",
+        "familia": "Pieridae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Thymelicus acteon",
+        "nomCat": "Daurat fosc",
+        "nomCast": "Dorada oscura",
+        "nomEng": "Lulworth Skipper",
+        "familia": "Hesperiidae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Carcharodus alceae",
+        "nomCat": "Capgròs comú",
+        "nomCast": "Piquitos de las malvas",
+        "nomEng": "Mallow Skipper",
+        "familia": "Hesperiidae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Libythea celtis",
+        "nomCat": "Papallona del lledoner",
+        "nomCast": "Mariposa del almez",
+        "nomEng": "Nettle-tree Butterfly",
+        "familia": "Nymphalidae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Pyronia sp",
+        "nomCat": "",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": false
+    },
+    {
+        "nomCientific": "Favonius quercus",
+        "nomCat": "Morada",
+        "nomCast": "Nazarena",
+        "nomEng": "Purple Hairstreak",
+        "familia": "Lycaenidae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
+        "nomCientific": "Pieris napi",
+        "nomCat": "Blanqueta perfumada",
+        "nomCast": "Blanca verdinervada",
+        "nomEng": "Green-veined White",
+        "familia": "Pieridae",
         "imatge": "",
         "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Maniola jurtina",
+        "nomCat": "Bruna de prat",
+        "nomCast": "Loba",
+        "nomEng": "Meadow Brown",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Satyrium esculi",
+        "nomCat": "Marroneta de l'alzina",
+        "nomCast": "Rabicorta de la coscoja",
+        "nomEng": "False Ilex Hairstreak",
+        "familia": "Lycaenidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Brintesia circe",
+        "nomCat": "Bruixa",
+        "nomCast": "Circe",
+        "nomEng": "Great Banded Grayling",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Cydalima perspectalis",
+        "nomCat": "",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Crambidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Anthocharis cardamines",
+        "nomCat": "Aurora",
+        "nomCast": "Aurora blanca",
+        "nomEng": "Orange Tip",
+        "familia": "Pieridae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Apatura ilia",
+        "nomCat": "Tornassolada petita",
+        "nomCast": "Tornasolada chica",
+        "nomEng": "Lesser Purple Emperor",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Satyridae",
+        "nomCat": "",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": false
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Pyrgus malvoides",
+        "nomCat": "Merlet comú",
+        "nomCast": "Ajedrezada menor",
+        "nomEng": "Southern Grizzled Skipper",
+        "familia": "Hesperiidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Danaus chrysippus",
+        "nomCat": "Papallona tigre",
+        "nomCast": "Mariposa tigre",
+        "nomEng": "Plain Tiger",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Melanargia lachesis",
+        "nomCat": "Escac ibèric",
+        "nomCast": "Medioluto ibérica",
+        "nomEng": "Iberian Marbled White",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Polygonia c-album",
+        "nomCat": "Papallona de la c blanca",
+        "nomCast": "C-blanca",
+        "nomEng": "Comma Butterfly",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Hipparchia fidia",
+        "nomCat": "Faune de ziga-zaga",
+        "nomCast": "Sátiro rayado",
+        "nomEng": "Stripped Grayling",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Hipparchia statilinus",
+        "nomCat": "Faune bru",
+        "nomCast": "Sátiro gris",
+        "nomEng": "Tree Grayling",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Pyrgus sp.",
+        "nomCat": "",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Hesperiidae",
+        "imatge": "",
+        "determinada": false
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Ochlodes sylvanus",
+        "nomCat": "Dard ros",
+        "nomCast": "Dorada difusa",
+        "nomEng": "Large Skipper",
+        "familia": "Hesperiidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Hipparchia semele",
+        "nomCat": "Faune lleonat",
+        "nomCast": "Sátiro rubio",
+        "nomEng": "Grayling",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
+        "nomCientific": "Melanargia sp.",
+        "nomCat": "",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": false
     },
     {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
-    {
-        "nomCientific": "Pieris Rapae",
-        "nomCat": "Blanqueta de la col",
-        "nomCast": "Blanquita de la col",
-        "nomEng": "Small White",
-        "imatge": ""
-    },
+        "nomCientific": "Euphydryas aurinia",
+        "nomCat": "Brocat variable",
+        "nomCast": "Ondas rojas europea",
+        "nomEng": "Marsh Fritillary",
+        "familia": "Nymphalidae",
+        "imatge": "",
+        "determinada": true
+    }
 ]
