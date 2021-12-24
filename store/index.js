@@ -5,12 +5,30 @@ export const state = () => ({
   data: [],
   especiesParcSeleccionat: [],
   especiesFiltrades: [],
-  parcList
+  parcList,
+  fetching: null
 })
 
 export const getters = {
   getParcData: state => (nom) => {
     return state.data.filter(parc => parc.nom === nom)[0]
+  },
+  getTotalData: (state) => {
+    const totalEspecies = []
+    const totalArray = []
+    state.data.forEach((parc) => {
+      parc.observacions.forEach((especie) => {
+        if (!totalEspecies.includes(especie[0])) {
+          totalEspecies.push(especie[0])
+          totalArray.push(especie)
+        } else {
+          const index = totalArray.findIndex(el => el[0] === especie[0])
+          console.log(especie[0], index)
+          totalArray[index][1] = [...totalArray[index][1], ...especie[1]]
+        }
+      })
+    })
+    return totalArray
   }
 }
 
@@ -21,21 +39,25 @@ export const mutations = {
 }
 
 export const actions = {
-  getData ({ commit }) {
-    fetch('https://ubmsapp.creaf.cat/public_map/data/?sp=')
-      .then((response) => {
-        return response.json()
-      })
+  setInitialData ({ commit }) {
+    async function fetchData () {
+      const response = await fetch('https://ubmsapp.creaf.cat/public_map/data/?sp=')
+      const data = await response.json()
+      return data
+    }
+    fetchData()
       .then((data) => {
         const dataBarna = Object.entries(data).filter(([key]) => key.includes('BARCELONA'))
         parcList.forEach((parc) => {
-          parc.especies = dataBarna.filter(([key]) => key.includes(parc.clau))
-          parc.especies.forEach((arr) => {
+          const especies = dataBarna.filter(([key]) => key.includes(parc.clau))
+          especies.forEach((arr) => {
             arr[0] = arr[0].replace(/.*\)\s/, '')
+            arr[2] = arr[1].muestreos
+            arr.splice(1, 1)
           })
+          parc.observacions = especies
         })
         commit('populateData', parcList)
       })
-      .catch(error => console.error('ERROR:', error))
   }
 }
