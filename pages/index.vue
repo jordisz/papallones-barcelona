@@ -2,7 +2,7 @@
   <div>
     <div class="filters-bar">
       <AppSelector :list="parcNamesArray" v-on:item-selected="filtraParc" />
-      <AppSelector :list="parcYearsArray" v-on:item-selected="filtraData" />
+      <AppSelector :list="parcYearsArray" v-on:item-selected="setSelectedYear" />
     </div>
     <div class="summary">
       {{ parcName }} ({{ selectedYear }}) - {{ filteredByYear.length }} espècies
@@ -74,6 +74,8 @@ export default {
   },
   created () {
     this.$store.dispatch('setInitialData')
+    const receivedTotalData = this.$store.getters.getTotalData
+    this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
   },
   methods: {
     filtraParc (parc) {
@@ -86,7 +88,7 @@ export default {
         this.orderedData = filteredData.sort((a, b) => b[1].length - a[1].length)
       }
     },
-    filtraData (year) {
+    setSelectedYear (year) {
       this.selectedYear = year
       return year
     }
