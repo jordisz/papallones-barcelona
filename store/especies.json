@@ -5,8 +5,9 @@
         "nomCast": "Blanquita de la col",
         "nomEng": "Small White",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-rapae-small.png",
+        "determinada": true,
+        "envergadura": 44
     },
     {
         "nomCientific": "Pararge aegeria",
@@ -14,8 +15,9 @@
         "nomCast": "Mariposa de los muros",
         "nomEng": "Speckled Wood",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-aegeria-small.png",
+        "determinada": true,
+        "envergadura": 40
     },
     {
         "nomCientific": "Lasiommata megera",
@@ -23,8 +25,9 @@
         "nomCast": "Saltacercas",
         "nomEng": "Wall Brown",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "l-megera-small.png",
+        "determinada": true,
+        "envergadura": 42
     },
     {
         "nomCientific": "Pieris sp.",
@@ -41,8 +44,9 @@
         "nomCast": "Ícaro",
         "nomEng": "Common Blue",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-icarus-small.png",
+        "determinada": true,
+        "envergadura": 33
     },
     {
         "nomCientific": "Papilio machaon",
@@ -50,8 +54,9 @@
         "nomCast": "Macaón",
         "nomEng": "Swallowtail",
         "familia": "Papilionidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-machaon-small.png",
+        "determinada": true,
+        "envergadura": 78
     },
     {
         "nomCientific": "Vanessa atalanta",
@@ -59,8 +64,9 @@
         "nomCast": "Atalanta",
         "nomEng": "Red Admiral",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "v-atalanta-small.png",
+        "determinada": true,
+        "envergadura": 60
     },
     {
         "nomCientific": "Cacyreus marshalli",
@@ -68,8 +74,9 @@
         "nomCast": "Taladro del geranio",
         "nomEng": "Geranium bronze",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "c-marshalli-small",
+        "determinada": true,
+        "envergadura": 19
     },
     {
         "nomCientific": "Lampides boeticus",
@@ -77,8 +84,9 @@
         "nomCast": "Estriada canela",
         "nomEng": "Long-tailed Blue",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "l-boeticus-small.png",
+        "determinada": true,
+        "envergadura": 29
     },
     {
         "nomCientific": "Iphiclides feisthamelii",
@@ -86,8 +94,9 @@
         "nomCast": "Chupaleches",
         "nomEng": "Southern Scarce Swallowtail",
         "familia": "Papilionidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "i-feisthamelii.png",
+        "determinada": true,
+        "envergadura": 70
     },
     {
         "nomCientific": "Leptotes pirithous",
@@ -95,8 +104,9 @@
         "nomCast": "Estriada gris",
         "nomEng": "Lang's Short-tailed Blue",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "l-pirithous-small.png",
+        "determinada": true,
+        "envergadura": 26
     },
     {
         "nomCientific": "Gonepteryx cleopatra",
@@ -104,8 +114,9 @@
         "nomCast": "Cleopatra",
         "nomEng": "Cleopatra",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "g-cleopatra-small.png",
+        "determinada": true,
+        "envergadura": 60
     },
     {
         "nomCientific": "Vanessa cardui",
@@ -113,8 +124,9 @@
         "nomCast": "Cardera",
         "nomEng": "Painted Lady",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "v-cardui-small.png",
+        "determinada": true,
+        "envergadura": 62
     },
     {
         "nomCientific": "Pieris Brassicae",
@@ -122,8 +134,9 @@
         "nomCast": "Blanca de la col",
         "nomEng": "Large White",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-brassicae-small.png",
+        "determinada": true,
+        "envergadura": 58
     },
     {
         "nomCientific": "Colias crocea",
@@ -131,8 +144,9 @@
         "nomCast": "Colias común",
         "nomEng": "Clouded Yellow",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "c-crocea-small.png",
+        "determinada": true,
+        "envergadura": 46
     },
     {
         "nomCientific": "Pyronia cecilia",
@@ -140,8 +154,9 @@
         "nomCast": "Lobito listado",
         "nomEng": "Southern Gatekeeper",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-cecilia-small.png",
+        "determinada": true,
+        "envergadura": 35
     },
     {
         "nomCientific": "Euchloe crameri",
@@ -149,8 +164,9 @@
         "nomCast": "Blanquiverdosa común",
         "nomEng": "Western Dappled White",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "e-crameri-small.png",
+        "determinada": true,
+        "envergadura": 42
     },
     {
         "nomCientific": "Charaxes jasius",
@@ -158,8 +174,9 @@
         "nomCast": "Cuatro colas",
         "nomEng": "Two-tailed Pasha",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "c-jasius-small.png",
+        "determinada": true,
+        "envergadura": 72
     },
     {
         "nomCientific": "Celastrina argiolus",
@@ -167,8 +184,9 @@
         "nomCast": "Náyade",
         "nomEng": "Holly Blue",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "c-argiolus-small.png",
+        "determinada": true,
+        "envergadura": 30
     },
     {
         "nomCientific": "Gonepteryx rhamni",
@@ -176,8 +194,9 @@
         "nomCast": "Limonera",
         "nomEng": "Brimstone",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "g-rhamni-small.png",
+        "determinada": true,
+        "envergadura": 60
     },
     {
         "nomCientific": "Aricia cramera",
@@ -185,8 +204,9 @@
         "nomCast": "Morena común",
         "nomEng": "Southern Brown Argus",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "a-cramera-small.png",
+        "determinada": true,
+        "envergadura": 28
     },
     {
         "nomCientific": "Lycaenidae",
@@ -203,8 +223,9 @@
         "nomCast": "Manto común",
         "nomEng": "Small Copper",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "l-phlaeas-small.png",
+        "determinada": true,
+        "envergadura": 27
     },
     {
         "nomCientific": "Gonepteryx sp.",
@@ -221,8 +242,9 @@
         "nomCast": "Lobito de banda blanca",
         "nomEng": "Spanish Gatekeeper",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-bathseba-small.png",
+        "determinada": true,
+        "envergadura": 36
     },
     {
         "nomCientific": "Pontia daplidice",
@@ -230,8 +252,9 @@
         "nomCast": "Blanquiverdosa",
         "nomEng": "Bath White",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-daplidice-small.png",
+        "determinada": true,
+        "envergadura": 45
     },
     {
         "nomCientific": "Thymelicus acteon",
@@ -239,8 +262,9 @@
         "nomCast": "Dorada oscura",
         "nomEng": "Lulworth Skipper",
         "familia": "Hesperiidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "t-acteon-small.png",
+        "determinada": true,
+        "envergadura": 26
     },
     {
         "nomCientific": "Carcharodus alceae",
@@ -248,8 +272,9 @@
         "nomCast": "Piquitos de las malvas",
         "nomEng": "Mallow Skipper",
         "familia": "Hesperiidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "c-alceae-small.png",
+        "determinada": true,
+        "envergadura": 30
     },
     {
         "nomCientific": "Libythea celtis",
@@ -257,8 +282,9 @@
         "nomCast": "Mariposa del almez",
         "nomEng": "Nettle-tree Butterfly",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "l-celtis-small.png",
+        "determinada": true,
+        "envergadura": 39
     },
     {
         "nomCientific": "Pyronia sp",
@@ -275,8 +301,9 @@
         "nomCast": "Nazarena",
         "nomEng": "Purple Hairstreak",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "f-quercus-small.png",
+        "determinada": true,
+        "envergadura": 33
     },
     {
         "nomCientific": "Pieris napi",
@@ -284,8 +311,9 @@
         "nomCast": "Blanca verdinervada",
         "nomEng": "Green-veined White",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-napi-small.png",
+        "determinada": true,
+        "envergadura": 46
     },
     {
         "nomCientific": "Maniola jurtina",
@@ -293,8 +321,9 @@
         "nomCast": "Loba",
         "nomEng": "Meadow Brown",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "m-jurtina-small.png",
+        "determinada": true,
+        "envergadura": 45
     },
     {
         "nomCientific": "Satyrium esculi",
@@ -302,8 +331,9 @@
         "nomCast": "Rabicorta de la coscoja",
         "nomEng": "False Ilex Hairstreak",
         "familia": "Lycaenidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "s-esculi-small.png",
+        "determinada": true,
+        "envergadura": 31
     },
     {
         "nomCientific": "Brintesia circe",
@@ -311,8 +341,9 @@
         "nomCast": "Circe",
         "nomEng": "Great Banded Grayling",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "b-circe-small.png",
+        "determinada": true,
+        "envergadura": 70
     },
     {
         "nomCientific": "Cydalima perspectalis",
@@ -329,8 +360,9 @@
         "nomCast": "Aurora blanca",
         "nomEng": "Orange Tip",
         "familia": "Pieridae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "a-cardamines-small.png",
+        "determinada": true,
+        "envergadura": 40
     },
     {
         "nomCientific": "Apatura ilia",
@@ -338,8 +370,9 @@
         "nomCast": "Tornasolada chica",
         "nomEng": "Lesser Purple Emperor",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "a-ilia-small.png",
+        "determinada": true,
+        "envergadura": 60
     },
     {
         "nomCientific": "Satyridae",
@@ -356,8 +389,9 @@
         "nomCast": "Ajedrezada menor",
         "nomEng": "Southern Grizzled Skipper",
         "familia": "Hesperiidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-malvoides-small.png",
+        "determinada": true,
+        "envergadura": 25
     },
     {
         "nomCientific": "Danaus chrysippus",
@@ -365,8 +399,9 @@
         "nomCast": "Mariposa tigre",
         "nomEng": "Plain Tiger",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "d-chrysippus-small.png",
+        "determinada": true,
+        "envergadura": 80
     },
     {
         "nomCientific": "Melanargia lachesis",
@@ -374,8 +409,9 @@
         "nomCast": "Medioluto ibérica",
         "nomEng": "Iberian Marbled White",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "m-lachesis-small.png",
+        "determinada": true,
+        "envergadura": 53
     },
     {
         "nomCientific": "Polygonia c-album",
@@ -383,8 +419,9 @@
         "nomCast": "C-blanca",
         "nomEng": "Comma Butterfly",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "p-c-album-small.png",
+        "determinada": true,
+        "envergadura": 45
     },
     {
         "nomCientific": "Hipparchia fidia",
@@ -392,8 +429,9 @@
         "nomCast": "Sátiro rayado",
         "nomEng": "Stripped Grayling",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "h-fidia-small.png",
+        "determinada": true,
+        "envergadura": 52
     },
     {
         "nomCientific": "Hipparchia statilinus",
@@ -401,8 +439,9 @@
         "nomCast": "Sátiro gris",
         "nomEng": "Tree Grayling",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "h-statilinus-small.png",
+        "determinada": true,
+        "envergadura": 52
     },
     {
         "nomCientific": "Pyrgus sp.",
@@ -419,8 +458,9 @@
         "nomCast": "Dorada difusa",
         "nomEng": "Large Skipper",
         "familia": "Hesperiidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "o-sylvanus-small.png",
+        "determinada": true,
+        "envergadura": 30
     },
     {
         "nomCientific": "Hipparchia semele",
@@ -428,8 +468,9 @@
         "nomCast": "Sátiro rubio",
         "nomEng": "Grayling",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "h-semele-small.png",
+        "determinada": true,
+        "envergadura": 54
     },
     {
         "nomCientific": "Melanargia sp.",
@@ -446,7 +487,8 @@
         "nomCast": "Ondas rojas europea",
         "nomEng": "Marsh Fritillary",
         "familia": "Nymphalidae",
-        "imatge": "",
-        "determinada": true
+        "imatge": "e-aurinia-small.png",
+        "determinada": true,
+        "envergadura": 40
     }
 ]
