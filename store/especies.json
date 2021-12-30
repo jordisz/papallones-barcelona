@@ -35,7 +35,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Pieridae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
@@ -74,7 +74,7 @@
         "nomCast": "Taladro del geranio",
         "nomEng": "Geranium bronze",
         "familia": "Lycaenidae",
-        "imatge": "c-marshalli-small",
+        "imatge": "c-marshalli-small.png",
         "determinada": true,
         "envergadura": 19
     },
@@ -94,7 +94,7 @@
         "nomCast": "Chupaleches",
         "nomEng": "Southern Scarce Swallowtail",
         "familia": "Papilionidae",
-        "imatge": "i-feisthamelii.png",
+        "imatge": "i-feisthamelii-small.png",
         "determinada": true,
         "envergadura": 70
     },
@@ -129,7 +129,7 @@
         "envergadura": 62
     },
     {
-        "nomCientific": "Pieris Brassicae",
+        "nomCientific": "Pieris brassicae",
         "nomCat": "Blanca de la col",
         "nomCast": "Blanca de la col",
         "nomEng": "Large White",
@@ -214,7 +214,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Lycaenidae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
@@ -233,7 +233,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Pieridae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
@@ -292,7 +292,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Nymphalidae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
@@ -351,7 +351,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Crambidae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": true
     },
     {
@@ -380,7 +380,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Nymphalidae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
@@ -449,7 +449,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Hesperiidae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
@@ -478,7 +478,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Nymphalidae",
-        "imatge": "",
+        "imatge": "mistery.png",
         "determinada": false
     },
     {
