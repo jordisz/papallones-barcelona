@@ -45,6 +45,7 @@ export const mutations = {
 
 export const actions = {
   setInitialData ({ commit }) {
+    commit('changeFetchedStatus', false)
     async function fetchData () {
       const response = await fetch('https://ubmsapp.creaf.cat/public_map/data/?sp=')
       const data = await response.json()

@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div v-if="isDataReady">
     <div class="filters-bar">
-      <AppSelector :list="parcNamesArray" v-on:item-selected="filtraParc" />
-      <AppSelector :list="parcYearsArray" v-on:item-selected="setSelectedYear" />
+      <AppSelector :list="parcNamesArray" @item-selected="filtraParc" />
+      <AppSelector :list="parcYearsArray" @item-selected="setSelectedYear" />
     </div>
     <div class="summary">
       {{ parcName }} ({{ selectedYear }}) - {{ filteredByYear.length }} espècies
@@ -32,6 +32,9 @@ export default {
     }
   },
   computed: {
+    isDataReady () {
+      return this.$store.getters.fetchedStatus
+    },
     parcNamesArray () {
       let arr = []
       this.Parcs.forEach((parc) => {
@@ -72,14 +75,14 @@ export default {
       return filteredArray
     }
   },
+  watch: {
+    isDataReady: function (oldval, dataReady) {
+      const receivedTotalData = this.$store.getters.getTotalData
+      this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
+    }
+  },
   created () {
     this.$store.dispatch('setInitialData')
-      .then((data) => {
-        if (this.$store.getters.fetchedStatus === true) {
-          const receivedTotalData = this.$store.getters.getTotalData
-          this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
-        }
-      })
   },
   methods: {
     filtraParc (parc) {
