@@ -6,10 +6,13 @@ export const state = () => ({
   especiesParcSeleccionat: [],
   especiesFiltrades: [],
   parcList,
-  fetching: null
+  fetched: null
 })
 
 export const getters = {
+  fetchedStatus: (state) => {
+    return state.fetched
+  },
   getParcData: state => (nom) => {
     return state.data.filter(parc => parc.nom === nom)[0]
   },
@@ -23,7 +26,6 @@ export const getters = {
           totalArray.push(especie)
         } else {
           const index = totalArray.findIndex(el => el[0] === especie[0])
-          console.log(especie[0], index)
           totalArray[index][1] = [...totalArray[index][1], ...especie[1]]
         }
       })
@@ -35,6 +37,9 @@ export const getters = {
 export const mutations = {
   populateData (state, data) {
     state.data = data
+  },
+  changeFetchedStatus (state, bool) {
+    state.fetched = bool
   }
 }
 
@@ -58,6 +63,7 @@ export const actions = {
           parc.observacions = especies
         })
         commit('populateData', parcList)
+        commit('changeFetchedStatus', true)
       })
   }
 }

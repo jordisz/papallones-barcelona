@@ -74,8 +74,12 @@ export default {
   },
   created () {
     this.$store.dispatch('setInitialData')
-    const receivedTotalData = this.$store.getters.getTotalData
-    this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
+      .then((data) => {
+        if (this.$store.getters.fetchedStatus === true) {
+          const receivedTotalData = this.$store.getters.getTotalData
+          this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
+        }
+      })
   },
   methods: {
     filtraParc (parc) {
