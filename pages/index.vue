@@ -104,6 +104,10 @@ export default {
 </script>
 
 <style>
+html {
+  font-family: 'Cabin', sans-serif;
+}
+
 .filters-bar {
   width: 100vw;
   height: 5rem;
