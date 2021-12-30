@@ -1,22 +1,47 @@
 <template>
   <div class="card">
-    <h2><em>{{ especie[0] }}</em></h2>
+    <h2>{{ info.nomCat }}</h2>
+    <h3><em>{{ info.nomCientific }}</em></h3>
+    <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
     <p>{{ especie[1].length }} mostrejos</p>
   </div>
 </template>
 
 <script>
+import especiesInfo from '@/store/especies.json'
 export default {
   name: 'ButterflyCard',
-  props: { especie: { type: Array, required: true } }
+  especiesInfoArray: especiesInfo,
+  props: {
+    especie: {
+      type: Array,
+      required: true
+    }
+  },
+  computed: {
+    info () {
+      const index = this.$options.especiesInfoArray.findIndex(element => element.nomCientific === this.$props.especie[0])
+      return this.$options.especiesInfoArray[index]
+    }
+  }
 }
 </script>
 
 <style scoped>
 .card {
-    width: 25vw;
-    padding: 1rem;
-    border: 1px solid black;
-    border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 364px;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: .5rem;
+}
+.card h2 {
+  margin: 0;
+}
+.card h3 {
+  margin-top: 1rem;
+  font-weight: 300;
 }
 </style>
