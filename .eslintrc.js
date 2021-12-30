@@ -17,6 +17,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     indent: ['error', 2],
-    'object-shorthand': ['properties']
+    'object-shorthand': ['properties', 1]
   }
 }
