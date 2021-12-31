@@ -5,7 +5,7 @@
       <AppSelector :list="parcYearsArray" @item-selected="setSelectedYear" />
     </div>
     <div class="summary">
-      {{ parcName }} ({{ selectedYear }}) - {{ filteredByYear.length }} espècies
+      {{ parcName }} ({{ selectedYear }}) - {{ countOnlyDeterminedSpecies }} espècies
     </div>
     <transition-group name="flip-cards" tag="div" class="cards-container">
       <ButterflyCard v-for="especie in filteredByYear" :key="especie[0]" :especie="especie" />
@@ -17,6 +17,7 @@
 import Parcs from '@/store/parcs.json'
 import AppSelector from '@/components/AppSelector'
 import ButterflyCard from '@/components/ButterflyCard.vue'
+import EspeciesInfo from '@/store/especies.json'
 export default {
   name: 'IndexPage',
   components: {
@@ -32,7 +33,9 @@ export default {
       /** Array with observations filtered by selected park (populated by filtraParc method) */
       orderedData: [],
       /** Current selected year */
-      selectedYear: 'TOTAL HISTORIC'
+      selectedYear: 'TOTAL HISTORIC',
+      /** Attributes of the different species */
+      EspeciesInfo
     }
   },
   computed: {
@@ -81,6 +84,13 @@ export default {
       })
       filteredArray.sort((a, b) => b[1].length - a[1].length)
       return filteredArray
+    },
+    /** Returns count of species in park/year (ignoring undetermined observations) */
+    countOnlyDeterminedSpecies () {
+      const undetermined = this.EspeciesInfo
+        .filter(especie => especie.determinada === false)
+        .map(x => x.nomCientific)
+      return this.filteredByYear.filter(especie => !undetermined.includes(especie[0])).length
     }
   },
   watch: {
