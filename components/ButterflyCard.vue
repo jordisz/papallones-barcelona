@@ -3,7 +3,7 @@
     <h2>{{ info.nomCat }}</h2>
     <h3><em>{{ info.nomCientific }}</em></h3>
     <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
-    <p>{{ exemplars }} en {{ especie[1].length }} mostrejos</p>
+    <p>{{ exemplars }} exemplars en <br/> {{ especie[1].length }} mostrejos</p>
   </div>
 </template>
 
@@ -43,10 +43,17 @@ export default {
 }
 .card h2 {
   margin: 0;
+  font-size: 1.3rem;
 }
 .card h3 {
   margin-top: .5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: lighter;
+}
+.card img {
+  transform: scale(.92);
+}
+.card p {
+  text-align: center;
 }
 </style>
