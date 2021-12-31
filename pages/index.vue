@@ -25,16 +25,22 @@ export default {
   },
   data () {
     return {
+      /** Array with park names */
       Parcs,
+      /** Current selected park name */
       parcName: '',
+      /** Array with observations filtered by selected park (populated by filtraParc method) */
       orderedData: [],
+      /** Current selected year */
       selectedYear: 'TOTAL HISTORIC'
     }
   },
   computed: {
+    /** Checks if data is fetched in store */
     isDataReady () {
       return this.$store.getters.fetchedStatus
     },
+    /** Obtains a list with all the park names */
     parcNamesArray () {
       let arr = []
       this.Parcs.forEach((parc) => {
@@ -43,6 +49,7 @@ export default {
       arr = ['TOTS ELS PARCS', ...arr]
       return arr
     },
+    /** Obtains a list with all the years with observations in the current park */
     parcYearsArray () {
       let yearsArray = []
       this.orderedData.forEach((especie) => {
@@ -58,6 +65,7 @@ export default {
       yearsArray = ['TOTAL HISTORIC', ...yearsArray]
       return yearsArray
     },
+    /** Filters current park data by selected year */
     filteredByYear () {
       if (this.selectedYear === 'TOTAL HISTORIC') {
         return this.orderedData
@@ -85,6 +93,7 @@ export default {
     this.$store.dispatch('setInitialData')
   },
   methods: {
+    /** Populates orderedData array with observations in the selected park */
     filtraParc (parc) {
       this.parcName = parc
       if (parc === 'TOTS ELS PARCS') {
@@ -95,6 +104,7 @@ export default {
         this.orderedData = filteredData.sort((a, b) => b[1].length - a[1].length)
       }
     },
+    /** Sets the value of selectedYear variable */
     setSelectedYear (year) {
       this.selectedYear = year
       return year
