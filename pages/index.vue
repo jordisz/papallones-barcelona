@@ -132,8 +132,9 @@ html {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: .7rem;
+  margin: 1rem auto 0;
+  width: 94vw;
 }
 
 .flip-cards-enter-active,
