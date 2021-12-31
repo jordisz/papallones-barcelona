@@ -35,7 +35,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Pieridae",
-        "imatge": "mistery.png",
+        "imatge": "pieris-small.png",
         "determinada": false
     },
     {
@@ -214,7 +214,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Lycaenidae",
-        "imatge": "mistery.png",
+        "imatge": "lycaenidae-small.png",
         "determinada": false
     },
     {
@@ -233,7 +233,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Pieridae",
-        "imatge": "mistery.png",
+        "imatge": "gonepteryx-small.png",
         "determinada": false
     },
     {
@@ -292,7 +292,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Nymphalidae",
-        "imatge": "mistery.png",
+        "imatge": "pyronia-small.png",
         "determinada": false
     },
     {
@@ -347,12 +347,13 @@
     },
     {
         "nomCientific": "Cydalima perspectalis",
-        "nomCat": "",
-        "nomCast": "",
-        "nomEng": "",
+        "nomCat": "Papallona del boix",
+        "nomCast": "Polilla del boj",
+        "nomEng": "Box Tree Moth",
         "familia": "Crambidae",
-        "imatge": "mistery.png",
-        "determinada": true
+        "imatge": "c-perspectalis-small.png",
+        "determinada": true,
+        "envergadura": 42
     },
     {
         "nomCientific": "Anthocharis cardamines",
@@ -380,7 +381,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Nymphalidae",
-        "imatge": "mistery.png",
+        "imatge": "satyridae-small.png",
         "determinada": false
     },
     {
@@ -449,7 +450,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Hesperiidae",
-        "imatge": "mistery.png",
+        "imatge": "pyrgus-small.png",
         "determinada": false
     },
     {
@@ -478,7 +479,7 @@
         "nomCast": "",
         "nomEng": "",
         "familia": "Nymphalidae",
-        "imatge": "mistery.png",
+        "imatge": "melanargia-small.png",
         "determinada": false
     },
     {
