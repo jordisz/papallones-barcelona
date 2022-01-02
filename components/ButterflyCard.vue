@@ -4,14 +4,19 @@
     <h3><em>{{ info.nomCientific }}</em></h3>
     <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
     <p>{{ exemplars }} exemplars en <br/> {{ especie[1].length }} mostrejos</p>
+    <ButterflyGraph :observacions="especie[1]" :id="info.id" />
   </div>
 </template>
 
 <script>
+import ButterflyGraph from '@/components/ButterflyGraph.vue'
 import especiesInfo from '@/store/especies.json'
 export default {
   name: 'ButterflyCard',
   especiesInfoArray: especiesInfo,
+  components: {
+    ButterflyGraph
+  },
   props: {
     especie: {
       type: Array,

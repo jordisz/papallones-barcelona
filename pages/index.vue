@@ -16,7 +16,7 @@
 <script>
 import Parcs from '@/store/parcs.json'
 import AppSelector from '@/components/AppSelector'
-import ButterflyCard from '@/components/ButterflyCard.vue'
+import ButterflyCard from '@/components/ButterflyCard'
 import EspeciesInfo from '@/store/especies.json'
 export default {
   name: 'IndexPage',
@@ -149,7 +149,7 @@ html {
 
 .flip-cards-enter-active,
 .flip-cards-leave-active {
-  transition: all 1s;
+  transition: all .7s;
 }
 
 .flip-cards-enter,
@@ -158,6 +158,6 @@ html {
 }
 
 .flip-cards-move {
-  transition: transform 1s;
+  transition: transform .7s;
 }
 </style>
