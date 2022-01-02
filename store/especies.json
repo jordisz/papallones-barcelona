@@ -1,5 +1,6 @@
 [
     {
+        "id": 41,
         "nomCientific": "Pieris rapae",
         "nomCat": "Blanqueta de la col",
         "nomCast": "Blanquita de la col",
@@ -10,6 +11,7 @@
         "envergadura": 44
     },
     {
+        "id": 63,
         "nomCientific": "Pararge aegeria",
         "nomCat": "Bruna de bosc",
         "nomCast": "Mariposa de los muros",
@@ -20,6 +22,7 @@
         "envergadura": 40
     },
     {
+        "id": 60,
         "nomCientific": "Lasiommata megera",
         "nomCat": "Margenera comuna",
         "nomCast": "Saltacercas",
@@ -30,6 +33,7 @@
         "envergadura": 42
     },
     {
+        "id": 909,
         "nomCientific": "Pieris sp.",
         "nomCat": "",
         "nomCast": "",
@@ -39,6 +43,7 @@
         "determinada": false
     },
     {
+        "id": 199,
         "nomCientific": "Polyommatus icarus",
         "nomCat": "Blaveta comuna",
         "nomCast": "Ícaro",
@@ -49,6 +54,7 @@
         "envergadura": 33
     },
     {
+        "id": 3,
         "nomCientific": "Papilio machaon",
         "nomCat": "Papallona reina",
         "nomCast": "Macaón",
@@ -59,6 +65,7 @@
         "envergadura": 78
     },
     {
+        "id": 124,
         "nomCientific": "Vanessa atalanta",
         "nomCat": "Atalanta",
         "nomCast": "Atalanta",
@@ -69,6 +76,7 @@
         "envergadura": 60
     },
     {
+        "id": 160,
         "nomCientific": "Cacyreus marshalli",
         "nomCat": "Barrinadora del gerani",
         "nomCast": "Taladro del geranio",
@@ -79,6 +87,7 @@
         "envergadura": 19
     },
     {
+        "id": 161,
         "nomCientific": "Lampides boeticus",
         "nomCat": "Blaveta dels pèsols",
         "nomCast": "Estriada canela",
@@ -89,6 +98,7 @@
         "envergadura": 29
     },
     {
+        "id": 2,
         "nomCientific": "Iphiclides feisthamelii",
         "nomCat": "Reina zebrada",
         "nomCast": "Chupaleches",
@@ -99,6 +109,7 @@
         "envergadura": 70
     },
     {
+        "id": 162,
         "nomCientific": "Leptotes pirithous",
         "nomCat": "Blaveta estriada",
         "nomCast": "Estriada gris",
@@ -109,6 +120,7 @@
         "envergadura": 26
     },
     {
+        "id": 35,
         "nomCientific": "Gonepteryx cleopatra",
         "nomCat": "Cleòpatra",
         "nomCast": "Cleopatra",
@@ -119,6 +131,7 @@
         "envergadura": 60
     },
     {
+        "id": 125,
         "nomCientific": "Vanessa cardui",
         "nomCat": "Migradora dels cards",
         "nomCast": "Cardera",
@@ -129,6 +142,7 @@
         "envergadura": 62
     },
     {
+        "id": 40,
         "nomCientific": "Pieris brassicae",
         "nomCat": "Blanca de la col",
         "nomCast": "Blanca de la col",
@@ -139,6 +153,7 @@
         "envergadura": 58
     },
     {
+        "id": 36,
         "nomCientific": "Colias crocea",
         "nomCat": "Safranera de l'alfals",
         "nomCast": "Colias común",
@@ -149,6 +164,7 @@
         "envergadura": 46
     },
     {
+        "id": 88,
         "nomCientific": "Pyronia cecilia",
         "nomCat": "Saltabardisses de solell",
         "nomCast": "Lobito listado",
@@ -159,6 +175,7 @@
         "envergadura": 35
     },
     {
+        "id": 51,
         "nomCientific": "Euchloe crameri",
         "nomCat": "Marbrada comuna",
         "nomCast": "Blanquiverdosa común",
@@ -169,6 +186,7 @@
         "envergadura": 42
     },
     {
+        "id": 59,
         "nomCientific": "Charaxes jasius",
         "nomCat": "Papallona de l'arboç",
         "nomCast": "Cuatro colas",
@@ -179,6 +197,7 @@
         "envergadura": 72
     },
     {
+        "id": 172,
         "nomCientific": "Celastrina argiolus",
         "nomCat": "Blaveta de l'heura",
         "nomCast": "Náyade",
@@ -189,6 +208,7 @@
         "envergadura": 30
     },
     {
+        "id": 34,
         "nomCientific": "Gonepteryx rhamni",
         "nomCat": "Llimonera",
         "nomCast": "Limonera",
@@ -199,6 +219,7 @@
         "envergadura": 60
     },
     {
+        "id": 180,
         "nomCientific": "Aricia cramera",
         "nomCat": "Moreneta meridional",
         "nomCast": "Morena común",
@@ -209,6 +230,7 @@
         "envergadura": 28
     },
     {
+        "id": 906,
         "nomCientific": "Lycaenidae",
         "nomCat": "",
         "nomCast": "",
@@ -218,6 +240,7 @@
         "determinada": false
     },
     {
+        "id": 145,
         "nomCientific": "Lycaena phlaeas",
         "nomCat": "Coure comú",
         "nomCast": "Manto común",
@@ -228,6 +251,7 @@
         "envergadura": 27
     },
     {
+        "id": 910,
         "nomCientific": "Gonepteryx sp.",
         "nomCat": "",
         "nomCast": "",
@@ -237,6 +261,7 @@
         "determinada": false
     },
     {
+        "id": 90,
         "nomCientific": "Pyronia bathseba",
         "nomCat": "Saltabardisses cintada",
         "nomCast": "Lobito de banda blanca",
@@ -247,6 +272,7 @@
         "envergadura": 36
     },
     {
+        "id": 45,
         "nomCientific": "Pontia daplidice",
         "nomCat": "Pòntia comuna",
         "nomCast": "Blanquiverdosa",
@@ -257,6 +283,7 @@
         "envergadura": 45
     },
     {
+        "id": 26,
         "nomCientific": "Thymelicus acteon",
         "nomCat": "Daurat fosc",
         "nomCast": "Dorada oscura",
@@ -267,6 +294,7 @@
         "envergadura": 26
     },
     {
+        "id": 7,
         "nomCientific": "Carcharodus alceae",
         "nomCat": "Capgròs comú",
         "nomCast": "Piquitos de las malvas",
@@ -277,6 +305,7 @@
         "envergadura": 30
     },
     {
+        "id": 58,
         "nomCientific": "Libythea celtis",
         "nomCat": "Papallona del lledoner",
         "nomCast": "Mariposa del almez",
@@ -287,6 +316,7 @@
         "envergadura": 39
     },
     {
+        "id": 911,
         "nomCientific": "Pyronia sp",
         "nomCat": "",
         "nomCast": "",
@@ -296,6 +326,7 @@
         "determinada": false
     },
     {
+        "id": 150,
         "nomCientific": "Favonius quercus",
         "nomCat": "Morada",
         "nomCast": "Nazarena",
@@ -306,6 +337,7 @@
         "envergadura": 33
     },
     {
+        "id": 44,
         "nomCientific": "Pieris napi",
         "nomCat": "Blanqueta perfumada",
         "nomCast": "Blanca verdinervada",
@@ -316,6 +348,7 @@
         "envergadura": 46
     },
     {
+        "id": 85,
         "nomCientific": "Maniola jurtina",
         "nomCat": "Bruna de prat",
         "nomCast": "Loba",
@@ -326,6 +359,7 @@
         "envergadura": 45
     },
     {
+        "id": 154,
         "nomCientific": "Satyrium esculi",
         "nomCat": "Marroneta de l'alzina",
         "nomCast": "Rabicorta de la coscoja",
@@ -336,6 +370,7 @@
         "envergadura": 31
     },
     {
+        "id": 96,
         "nomCientific": "Brintesia circe",
         "nomCat": "Bruixa",
         "nomCast": "Circe",
@@ -346,6 +381,7 @@
         "envergadura": 70
     },
     {
+        "id": 500,
         "nomCientific": "Cydalima perspectalis",
         "nomCat": "Papallona del boix",
         "nomCast": "Polilla del boj",
@@ -356,6 +392,7 @@
         "envergadura": 42
     },
     {
+        "id": 47,
         "nomCientific": "Anthocharis cardamines",
         "nomCat": "Aurora",
         "nomCast": "Aurora blanca",
@@ -366,6 +403,7 @@
         "envergadura": 40
     },
     {
+        "id": 122,
         "nomCientific": "Apatura ilia",
         "nomCat": "Tornassolada petita",
         "nomCast": "Tornasolada chica",
@@ -376,6 +414,7 @@
         "envergadura": 60
     },
     {
+        "id": 912,
         "nomCientific": "Satyridae",
         "nomCat": "",
         "nomCast": "",
@@ -385,6 +424,7 @@
         "determinada": false
     },
     {
+        "id": 13,
         "nomCientific": "Pyrgus malvoides",
         "nomCat": "Merlet comú",
         "nomCast": "Ajedrezada menor",
@@ -395,6 +435,7 @@
         "envergadura": 25
     },
     {
+        "id": 57,
         "nomCientific": "Danaus chrysippus",
         "nomCat": "Papallona tigre",
         "nomCast": "Mariposa tigre",
@@ -405,6 +446,7 @@
         "envergadura": 80
     },
     {
+        "id": 91,
         "nomCientific": "Melanargia lachesis",
         "nomCat": "Escac ibèric",
         "nomCast": "Medioluto ibérica",
@@ -415,6 +457,7 @@
         "envergadura": 53
     },
     {
+        "id": 131,
         "nomCientific": "Polygonia c-album",
         "nomCat": "Papallona de la c blanca",
         "nomCast": "C-blanca",
@@ -425,6 +468,7 @@
         "envergadura": 45
     },
     {
+        "id": 101,
         "nomCientific": "Hipparchia fidia",
         "nomCat": "Faune de ziga-zaga",
         "nomCast": "Sátiro rayado",
@@ -435,6 +479,7 @@
         "envergadura": 52
     },
     {
+        "id": 100,
         "nomCientific": "Hipparchia statilinus",
         "nomCat": "Faune bru",
         "nomCast": "Sátiro gris",
@@ -445,6 +490,7 @@
         "envergadura": 52
     },
     {
+        "id": 913,
         "nomCientific": "Pyrgus sp.",
         "nomCat": "",
         "nomCast": "",
@@ -454,6 +500,7 @@
         "determinada": false
     },
     {
+        "id": 29,
         "nomCientific": "Ochlodes sylvanus",
         "nomCat": "Dard ros",
         "nomCast": "Dorada difusa",
@@ -464,6 +511,7 @@
         "envergadura": 30
     },
     {
+        "id": 102,
         "nomCientific": "Hipparchia semele",
         "nomCat": "Faune lleonat",
         "nomCast": "Sátiro rubio",
@@ -474,6 +522,7 @@
         "envergadura": 54
     },
     {
+        "id": 914,
         "nomCientific": "Melanargia sp.",
         "nomCat": "",
         "nomCast": "",
@@ -483,6 +532,7 @@
         "determinada": false
     },
     {
+        "id": 132,
         "nomCientific": "Euphydryas aurinia",
         "nomCat": "Brocat variable",
         "nomCast": "Ondas rojas europea",
