@@ -17,6 +17,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     indent: ['error', 2],
-    'object-shorthand': ['properties', 1]
+    'object-shorthand': ['properties', 1],
+    'no-unused-vars': ['warn']
   }
 }
