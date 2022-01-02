@@ -45,6 +45,18 @@ export default {
       })
     }
   },
+  mounted () {
+    this.clearGraph()
+    this.$nextTick(() => {
+      this.drawGraph()
+    })
+  },
+  beforeUpdate () {
+    this.clearGraph()
+    this.$nextTick(() => {
+      this.drawGraph()
+    })
+  },
   methods: {
     drawGraph () {
       const canvas = d3.select(`.id${this.id}`)
@@ -73,18 +85,6 @@ export default {
     clearGraph () {
       d3.select('svg').remove()
     }
-  },
-  mounted () {
-    this.clearGraph()
-    this.$nextTick(() => {
-      this.drawGraph()
-    })
-  },
-  beforeUpdate () {
-    this.clearGraph()
-    this.$nextTick(() => {
-      this.drawGraph()
-    })
   }
 }
 
