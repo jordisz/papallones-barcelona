@@ -7,7 +7,7 @@
       <li>Cast: {{ info.nomCast }}</li>
       <li>Eng: {{ info.nomEng }}</li>
     </ul>
-    {{ id }}
+    <p>{{ info.text1 }}</p>
   </div>
 </template>
 
