@@ -1,10 +1,17 @@
 <template>
   <div class="card">
-    <h2>{{ info.nomCat }}</h2>
-    <h3><em>{{ info.nomCientific }}</em></h3>
-    <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
-    <p>{{ exemplars }} exemplars en <br/> {{ especie[1].length }} mostrejos</p>
-    <ButterflyGraph :observacions="especie[1]" :id="info.id" />
+    <div class="card-header">
+      <h2>{{ info.nomCat }}</h2>
+      <h3><em>{{ info.nomCientific }}</em></h3>
+    </div>
+    <div class="image-container">
+      <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
+    </div>
+    <p>{{ exemplars }} exemplars en <br /> {{ especie[1].length }} mostrejos</p>
+    <ButterflyGraph :id="info.id" :observacions="especie[1]" />
+    <NuxtLink class="link-sp" :to="`/especies/${info.id}`">
+      Veure fitxa
+    </NuxtLink>
   </div>
 </template>
 
@@ -40,25 +47,53 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   max-width: 364px;
   padding: 1rem;
   border: 1px solid rgb(190, 190, 190);
   border-radius: .2rem;
   box-shadow: .2rem .2rem .4rem rgba(88, 88, 88, 0.2);
 }
-.card h2 {
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50px;
+}
+.card-header h2 {
   margin: 0;
   font-size: 1.3rem;
 }
-.card h3 {
-  margin-top: .5rem;
+.card-header h3 {
+  margin: .5rem 0 0;
   font-size: 1rem;
   font-weight: lighter;
 }
 .card img {
   transform: scale(.92);
 }
+
+.image-container {
+  min-height: 190px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .card p {
   text-align: center;
+  margin: .4rem;
+}
+
+.link-sp {
+  align-self: flex-end;
+  text-decoration: none;
+  font-size: .9rem;
+  background-color: rgba(20, 133, 20, 0.7);
+  color: white;
+  padding: .25rem;
+  border: 1px solid green;
+  border-radius: 3px;
 }
 </style>
