@@ -8,7 +8,10 @@
         "familia": "Pieridae",
         "imatge": "p-rapae-small.png",
         "determinada": true,
-        "envergadura": 44
+        "envergadura": 44,
+        "SSI": 0.707,
+        "TAO": 0.280,
+        "text1": "La papallona més abundant a la ciutat. Les seves larves s'alimenten de brassicàcies com les cols, el nap o el rave, la qual cosa fa que sigui una espècie molt habitual en ambients humanitzats. Originària d'Europa, Àsia i el Nord d'Àfrica, la seva relació amb els conreus humans l'ha fet arribar també a Amèrica i Austràlia, on és una plaga. La podem veure al llarg de tot l'any, ja que fa diverses generacions que es van solapant."
     },
     {
         "id": 63,
@@ -19,7 +22,10 @@
         "familia": "Nymphalidae",
         "imatge": "p-aegeria-small.png",
         "determinada": true,
-        "envergadura": 40
+        "envergadura": 40,
+        "SSI": 1.007,
+        "TAO": -0.416,
+        "text1": "Una de les papallones més comunes a Catalunya. Prefereix ambients forestals i humits, pel que és fàcil veure-la en molts dels parcs de la ciutat. N'és fàcil d'observar el comportament territorial dels mascles, que es posen en clapes de sol en llocs ombrejats, defensant-les quan arriba un altre mascle en una mena de combat aeri. Vola pràcticament durant tot l'any en generacions solapades."
     },
     {
         "id": 60,
@@ -30,7 +36,10 @@
         "familia": "Nymphalidae",
         "imatge": "l-megera-small.png",
         "determinada": true,
-        "envergadura": 42
+        "envergadura": 42,
+        "SSI": 0.460,
+        "TAO": 0.119,
+        "text1": "Una de les papallones més comunes de Catalunya. Molt abundant en ambients oberts i pedregosos com la vessant barcelonina de Collserola, on és fàcil trobar-la en pistes i camins. Els mascles defensen territoris en llocs prominents i cims de turons. Les larves s'alimenten de diverses gramínies. La podem veure volar gairebé tot l'any, amb tres pics d'abundància cap al març-abril, al juny-juliol i a finals d'agost-setembre."
     },
     {
         "id": 909,
@@ -40,7 +49,8 @@
         "nomEng": "",
         "familia": "Pieridae",
         "imatge": "pieris-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "A Barcelona hi tenim tres espècies del gènere Pieris: la blanqueta de la col, que és la més comuna, la blanca de la col i la blanqueta perfumada. En vol són difícils de diferenciar, ja que ens hem de fixar en detalls com les taques negres de l'àpex de les ales anteriors. Això fa que s'anotin moltes observacions de blanques/blanquetes de les que no se n'ha pogut concretar l'espècie."
     },
     {
         "id": 199,
@@ -51,7 +61,10 @@
         "familia": "Lycaenidae",
         "imatge": "p-icarus-small.png",
         "determinada": true,
-        "envergadura": 33
+        "envergadura": 33,
+        "SSI": 0.849,
+        "TAO": 0.595,
+        "text1": "La blaveta comuna és molt abundant en ambients humanitzats com conreus herbacis i parcs urbans, sobretot en els que tenen zones obertes amb gespa. Les seves larves s'alimenten de les flors i fulles de diverses fabàcies com els lotus, l'alfals i els trèvols. Podem trobar-ne exemplars durant tota la temporada, tot i que és molt més abundant a partir del maig."
     },
     {
         "id": 3,
@@ -62,7 +75,10 @@
         "familia": "Papilionidae",
         "imatge": "p-machaon-small.png",
         "determinada": true,
-        "envergadura": 78
+        "envergadura": 78,
+        "SSI": 0.628,
+        "TAO": 0.515,
+        "text1": "La reina de la ruda, macaó o senzillament reina, és una de les papallones més espectaculars de la nostra fauna. És una espècie molt generalista, capaç d'ocupar hàbitats molt diversos. Els mascles defensen territoris als cims dels turons, on podem observar-los mantenint espectaculars combats aeris. Les femelles ponen els ous en plantes com el fonoll, la pastanaga i la ruda. La podem trobar des del febrer fins l'octubre, amb un pic d'abundància cap al juny."
     },
     {
         "id": 124,
@@ -73,7 +89,10 @@
         "familia": "Nymphalidae",
         "imatge": "v-atalanta-small.png",
         "determinada": true,
-        "envergadura": 60
+        "envergadura": 60,
+        "SSI": 0.489,
+        "TAO": 0.132,
+        "text1": "Papallona migradora i molt generalista. A Barcelona és més abundant cap a finals de setembre-octubre, quan hi arriben els exemplars del centre i Nord d'Europa buscant un clima més suau. En canvi, als mesos més càlids de l'estiu és menys abundant, ja que en aquesta època la migració s'`ha produit en el sentit contrari. Les femelles ponen els ous sobre l'ortiga."
     },
     {
         "id": 160,
@@ -84,7 +103,10 @@
         "familia": "Lycaenidae",
         "imatge": "c-marshalli-small.png",
         "determinada": true,
-        "envergadura": 19
+        "envergadura": 19,
+        "SSI": 1.581,
+        "TAO": 0.484,
+        "text1": "Petita papallona no autòctona de Catalunya, on hi va arribar a finals de la dècada dels 90. Lligada als geranis ornamentals, dels que s'alimenten les seves larves, és una espècie molt habitual a la ciutat, on en podem veure exemplars tot l'any, tot i que l'abundància n'augmenta cap a l'estiu."
     },
     {
         "id": 161,
@@ -95,7 +117,10 @@
         "familia": "Lycaenidae",
         "imatge": "l-boeticus-small.png",
         "determinada": true,
-        "envergadura": 29
+        "envergadura": 29,
+        "SSI": 0.877,
+        "TAO": 0.499,
+        "text1": "Papallona migradora que podem trobar als parcs, especialment en ambients oberts, sobretot a partir de finals de primavera, quan arriben exemplars provinents del Nord d'Àfrica i el Sud de la península. Durant els primers mesos de la temporada és molt més rara, ja que és una espècie que no tolera bé el fred de l'hivern. Les seves larves s'alimenten de diverses fabàcies com l'alfals, la pesolera, la ginesta o la gatosa."
     },
     {
         "id": 2,
@@ -106,7 +131,10 @@
         "familia": "Papilionidae",
         "imatge": "i-feisthamelii-small.png",
         "determinada": true,
-        "envergadura": 70
+        "envergadura": 70,
+        "SSI": 0.650,
+        "TAO": 0.437,
+        "text1": "Espècie molt comuna, lligada a arbres i arbustos com el cirerer, el presseguer, la prunera o l'aranyoner. Els mascles presenten comportament territorial, defensant el seu espai al cim dels turons. Podem veure'n volar els primers exemplars ja al febrer, tot i que les generacions més abundants són les de l'estiu."
     },
     {
         "id": 162,
@@ -117,7 +145,10 @@
         "familia": "Lycaenidae",
         "imatge": "l-pirithous-small.png",
         "determinada": true,
-        "envergadura": 26
+        "envergadura": 26,
+        "SSI": 1.205,
+        "TAO": 0.495,
+        "text1": "Papallona migradora que esdevé abundant als parcs de Barcelona especialment a partir del mes d'agost. Alguns exemplars sobreviuen l'hivern i els podem trobar a començament de temporada, però la majoria d'observacions són posteriors a la primavera, quan arriben els migrants del Nord d'Àfrica i del Sud peninsular. Les seves larves es poden alimentar de plantes força comunes, com el trèvol, l'alfals o el romaní."
     },
     {
         "id": 35,
@@ -128,7 +159,10 @@
         "familia": "Pieridae",
         "imatge": "g-cleopatra-small.png",
         "determinada": true,
-        "envergadura": 60
+        "envergadura": 60,
+        "SSI": 0.494,
+        "TAO": 0.155,
+        "text1": "La cleòpatra és una de les papallones que viu més temps com a adulta. Els adults emergeixen cap al maig-juny. A l'estiu migren cap a zones més fresques, on s'alimenten preparant-se per a passar l'hivern en diapausa. Al febrer tornen a l'activitat, fent vols nupcials en els que el mascle persegueix la femella, i es reprodueixen, ponent sobre l'aladern i l'arçot els ous de la següent generació."
     },
     {
         "id": 125,
@@ -139,7 +173,10 @@
         "familia": "Nymphalidae",
         "imatge": "v-cardui-small.png",
         "determinada": true,
-        "envergadura": 62
+        "envergadura": 62,
+        "SSI": 0.815,
+        "TAO": 0.535,
+        "text1": "La migradora dels cards protagonitza una llarga migració, en diferents generacions, entre l'Àfrica subsahariana, on hi passa l'hivern, i el centre i Nord d'Europa a l'estiu. A Barcelona hi arriba cap a la primavera, i pon els ous dels exemplars que a l'estiu volaran cap al Nord. Cap a finals d'agost-setembre en tornen a passar, aquest cop cap al Sud. Les larves s'alimenten de malva i de cards."
     },
     {
         "id": 40,
@@ -150,7 +187,10 @@
         "familia": "Pieridae",
         "imatge": "p-brassicae-small.png",
         "determinada": true,
-        "envergadura": 58
+        "envergadura": 58,
+        "SSI": 0.805,
+        "TAO": 0.232,
+        "text1": "Papallona generalista, lligada a conreus com el rave, el nap o la col, de la que en pot arribar a ser una plaga. A Barcelona sembla ser menys abundant que la blanqueta de la col, i a l'igual que aquesta altra espècie, la podem veure volar durant tota la temporada, amb pics d'abundància que coincideixen amb moviments migratoris cap a finals de primavera i cap a començaments de setembre. Els mesos càlids de l'estiu és menys abundant."
     },
     {
         "id": 36,
@@ -161,7 +201,10 @@
         "familia": "Pieridae",
         "imatge": "c-crocea-small.png",
         "determinada": true,
-        "envergadura": 46
+        "envergadura": 46,
+        "SSI": 0.687,
+        "TAO": 0.597,
+        "text1": "Una de les papallones més comunes de Catalunya, habitual als conreus i a zones ruderals, on s'hi troben les seves plantes nutrícies, com l'alfals, el trèvol i la banya de cabra. Si l'hivern és suau, en podem veure volar durant tot l'any, en generacions successives. És una espècie migradora, pel que a la primavera la població de Barcelona es veu reforçada amb l'arribada d'exemplars del sud de la península i del Nord d'Àfrica, i a la tardor amb papallones procedents del centre d'Europa."
     },
     {
         "id": 88,
@@ -172,7 +215,10 @@
         "familia": "Nymphalidae",
         "imatge": "p-cecilia-small.png",
         "determinada": true,
-        "envergadura": 35
+        "envergadura": 35,
+        "SSI": 0.811,
+        "TAO": 0.489,
+        "text1": "Espècie mediterrània, pròpia de zones obertes i seques, de manera que només la trobem en parcs propers a Collserola i als turons del Carmel i de la Rovira. Fa una única generació entre juny i agost, tot i que les femelles poden arribar a viure fins el setembre."
     },
     {
         "id": 51,
@@ -183,7 +229,10 @@
         "familia": "Pieridae",
         "imatge": "e-crameri-small.png",
         "determinada": true,
-        "envergadura": 42
+        "envergadura": 42,
+        "SSI": 1.333,
+        "TAO": 0.600,
+        "text1": "Papallona comuna, habitual d'ambients agrícoles. Les seves larves s'alimenten de gran varietat de crucíferes. Fa dues generacions, una a finals d'hivern i l'altra al maig-juny, que pot ser més o menys abundant en funció de les pluges primaverals."
     },
     {
         "id": 59,
@@ -194,7 +243,10 @@
         "familia": "Nymphalidae",
         "imatge": "c-jasius-small.png",
         "determinada": true,
-        "envergadura": 72
+        "envergadura": 72,
+        "SSI": 0.958,
+        "TAO": 0.213,
+        "text1": "Espectacular papallona pròpia de boscos i màquies mediterranis. Vola en dues generacions, la primera al maig-juny i la segona cap a l'agost-octubre. Els mascles defensen territoris al capdamunt de turons. Les seves larves s'alimenten de les fulles d'arboç, mentre que els adults no acostumen a libar nèctar de les flors, sinò que es nodreixen de fruita madura, exsudats d'arbres i excrements de mamífers."
     },
     {
         "id": 172,
@@ -205,7 +257,10 @@
         "familia": "Lycaenidae",
         "imatge": "c-argiolus-small.png",
         "determinada": true,
-        "envergadura": 30
+        "envergadura": 30,
+        "SSI": 0.755,
+        "TAO": 0.062,
+        "text1": "Papallona molt comuna a Catalunya, pròpia d'ambients ombrívols i humits. Fa tres generacions al llarg de l'any. Les seves larves es poden nodrir de diferents plantes comunes, com l'esbarzer, l'heura, l'alfals o l'arboç. És una espècie molt mòbil que s'estableix arreu amb molta facilitat."
     },
     {
         "id": 34,
@@ -216,7 +271,10 @@
         "familia": "Pieridae",
         "imatge": "g-rhamni-small.png",
         "determinada": true,
-        "envergadura": 60
+        "envergadura": 60,
+        "SSI": 0.600,
+        "TAO": 0.065,
+        "text1": "Papallona amb preferència pels ambients forestals, però amb una gran mobilitat que fa que se'n puguin veure exemplars volant en altres tipus d'hàbitat. Com en el cas de la cleòpatra, fa una única generació que vola a partir del maig, hiberna, i es reprodueix a l'inici de la següent primavera."
     },
     {
         "id": 180,
@@ -227,7 +285,10 @@
         "familia": "Lycaenidae",
         "imatge": "a-cramera-small.png",
         "determinada": true,
-        "envergadura": 28
+        "envergadura": 28,
+        "SSI": 0.873,
+        "TAO": 0.497,
+        "text1": "Papallona mediterrània pròpia de prats i clarianes forestals. Vola des de març a octubre en diferents generacions, tot i que als parcs de Barcelona s'ha detectat principalment a l'estiu. Les erugues disposen d'una glàndula que secreta una substància ensucrada molt atractiva per a algunes espècies de formigues, que les transporten al seu formiguer, on queden protegides."
     },
     {
         "id": 906,
@@ -237,7 +298,8 @@
         "nomEng": "",
         "familia": "Lycaenidae",
         "imatge": "lycaenidae-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "Els licènids (Lycaenidae) són una família amb espècies molt comunes, de mida petita i vol ràpid i erràtic. Això fa que en alguns casos els observadors no les puguin identificar amb certesa. Als parcs de Barcelona se n'han observat nou espècies diferents (blaveta comuna, barrinadora del gerani, blaveta dels pèsols, blaveta estriada, blaveta de l'heura, moreneta meridional, coure comú, morada, marroneta de l'alzina), i hi ha altres espècies, com la verdeta d'ull blanc o la griseta mediterrània, que per la proximitat amb Collserola hi podrien acabar apareixent."
     },
     {
         "id": 145,
@@ -248,7 +310,10 @@
         "familia": "Lycaenidae",
         "imatge": "l-phlaeas-small.png",
         "determinada": true,
-        "envergadura": 27
+        "envergadura": 27,
+        "SSI": 0.717,
+        "TAO": 0.517,
+        "text1": "Papallona que s'acostuma a trobar en ambients humanitzats com conreus i parcs urbans. Vola durant tot l'any en generacions succesives. Tot i que és molt comuna a Catalunya, ha patit una regressió al litoral i prelitoral, possiblement a causa de la intensificació del paisatge i de l'augment de les sequeres estivals."
     },
     {
         "id": 910,
@@ -258,7 +323,8 @@
         "nomEng": "",
         "familia": "Pieridae",
         "imatge": "gonepteryx-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "Degut a la facilitat de confusió entre les femelles de la cleòpatra i de la llimonera, qualsevol femella d'aquestes espècies queda anotada de forma genèrica com a Gonepteryx sp."
     },
     {
         "id": 90,
@@ -269,7 +335,10 @@
         "familia": "Nymphalidae",
         "imatge": "p-bathseba-small.png",
         "determinada": true,
-        "envergadura": 36
+        "envergadura": 36,
+        "SSI": 0.771,
+        "TAO": -0.010,
+        "text1": "Espècie endèmica de la Mediterrània occidental, força comuna a Catalunya, especialment al litoral i prelitoral. Prefereix zones herboses a prop de boscos, però apareix també en altres ambients. A Barcelona la podem trobar a l'abril i al maig als parcs més propers a Collserola i als turons de la Rovira i del Carmel."
     },
     {
         "id": 45,
@@ -280,7 +349,10 @@
         "familia": "Pieridae",
         "imatge": "p-daplidice-small.png",
         "determinada": true,
-        "envergadura": 45
+        "envergadura": 45,
+        "SSI": 0.938,
+        "TAO": 0.606,
+        "text1": "Espècie migradora que podem trobar de febrer a octubre, tot i que es va fent més abundant a mida que avança la temporada. A la primavera arriben exemplars del Nord d'Àfrica i del Sud peninsular, i a la tardor en tornen a passar, aquest cop en direcció Sud. Prefereixen ambients secs i oberts, però és possible que aparegui a qualsevol parc, especialment cap al final de la temporada."
     },
     {
         "id": 26,
@@ -291,7 +363,10 @@
         "familia": "Hesperiidae",
         "imatge": "t-acteon-small.png",
         "determinada": true,
-        "envergadura": 26
+        "envergadura": 26,
+        "SSI": 0.728,
+        "TAO": 0.385,
+        "text1": "Petita papallona que viu en multitud d'ambients, tot i que prefereix zones càlides i assolellades. A nivell europeu ha patit fortes regressions poblacionals i es considera gairebé amenaçada. Pon els ous sobre diferents gramínies, i el seu període de vol es concentra als mesos de maig i juny."
     },
     {
         "id": 7,
@@ -302,7 +377,10 @@
         "familia": "Hesperiidae",
         "imatge": "c-alceae-small.png",
         "determinada": true,
-        "envergadura": 30
+        "envergadura": 30,
+        "SSI": 1.004,
+        "TAO": 0.627,
+        "text1": "Una de les espècies més comunes de Catalunya, habitual de zones ruderals i parcs urbans on hi creix la seva planta nutrícia principal, la malva. La seva mida petita la fa passar sovint desapercebuda, però no és difícil veure'n algun exemplar a prop de les malves. La podem trobar des de març fins a octubre, en diferents generacions."
     },
     {
         "id": 58,
@@ -313,7 +391,10 @@
         "familia": "Nymphalidae",
         "imatge": "l-celtis-small.png",
         "determinada": true,
-        "envergadura": 39
+        "envergadura": 39,
+        "SSI": 1.171,
+        "TAO": 0.183,
+        "text1": "Papallona lligada a la presència de lledoners. La podem veure volar ja al febrer, doncs hiberna en forma d'adult. A la primera meitat de la primavera es reprodueix i pon els ous. Cap al maig-juny emergeixen les noves papallones, que amb l'arribada de la calor van entrant en diapausa fins l'any següent."
     },
     {
         "id": 911,
@@ -323,7 +404,8 @@
         "nomEng": "",
         "familia": "Nymphalidae",
         "imatge": "pyronia-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "A Barcelona hi trobem dues espècies del gènere Pyronia. Als mesos d'abril i maig la més abundant és la saltabardisses cintada, i a partir del maig la saltabardisses de solell. En vol són difícils de distingir l'una de l'altra."
     },
     {
         "id": 150,
@@ -334,7 +416,10 @@
         "familia": "Lycaenidae",
         "imatge": "f-quercus-small.png",
         "determinada": true,
-        "envergadura": 33
+        "envergadura": 33,
+        "SSI": 1.114,
+        "TAO": -0.296,
+        "text1": "Espècie molt comuna a rouredes i alzinars, tot i que difícil de detectar, perquè acostuma a trobar-se a les capçades dels arbres, d'on només baixa per a libar sals del fang o per a refrescar-se quan fa molta calor. Només fa una generació anual, que vola des de finals de primavera fins a l'octubre."
     },
     {
         "id": 44,
@@ -345,7 +430,10 @@
         "familia": "Pieridae",
         "imatge": "p-napi-small.png",
         "determinada": true,
-        "envergadura": 46
+        "envergadura": 46,
+        "SSI": 1.013,
+        "TAO": 0.046,
+        "text1": "Espècie típica d'ambients humits, com boscos de ribera o regadius. Per aquest motiu és molt rara als parcs de Barcelona. La feromona que produeixen els mascles per a atraure les femelles fa olor de llimona. Vola tota la temporada, en diferents generacions solapades."
     },
     {
         "id": 85,
@@ -356,7 +444,10 @@
         "familia": "Nymphalidae",
         "imatge": "m-jurtina-small.png",
         "determinada": true,
-        "envergadura": 45
+        "envergadura": 45,
+        "SSI": 0.786,
+        "TAO": 0.245,
+        "text1": "Papallona força comuna a Catalunya. Prefereix prats i zones obertes, per la qual cosa no és molt habitual als parcs barcelonins. Els adults comencen a volar entre maig i juny. Els mesos més càlids de juliol i agost els passen en estivació, reposant en zones de vegetació espessa, i a finals d'agost tornen a volar, fins la tardor. Les femelles ponen els ous sobre gran diversitat d'herbes."
     },
     {
         "id": 154,
@@ -367,7 +458,10 @@
         "familia": "Lycaenidae",
         "imatge": "s-esculi-small.png",
         "determinada": true,
-        "envergadura": 31
+        "envergadura": 31,
+        "SSI": 0.876,
+        "TAO": 0.223,
+        "text1": "Típica d'alzinars, és una de les papallones més comunes a Catalunya. Vola en una única generació des de maig fins a finals d'agost, i tot i que és una espècie forestal, no és difícil trobar-la en zones més obertes, on troben flors per a libar-ne nèctar."
     },
     {
         "id": 96,
@@ -378,7 +472,10 @@
         "familia": "Nymphalidae",
         "imatge": "b-circe-small.png",
         "determinada": true,
-        "envergadura": 70
+        "envergadura": 70,
+        "SSI": 0.860,
+        "TAO": 0.432,
+        "text1": "Espècie força comuna a Catalunya, amb preferència per zones herboses amb presència d'arbres i arbusts. Les seves larves s'alimenten de diverses herbes. La podem veure volar a partir de començaments de juny fins a mitjans de juliol, moment en el que fa una pausa en la seva activitat fins a mitjans d'agost, quan torna a volar fins a l'octubre. Els mascles mostren un comportament territorial."
     },
     {
         "id": 500,
@@ -389,7 +486,8 @@
         "familia": "Crambidae",
         "imatge": "c-perspectalis-small.png",
         "determinada": true,
-        "envergadura": 42
+        "envergadura": 42,
+        "text1": "Aquesta papallona nocturna és una espècie invasora d'origen asiàtic que des de l'any 2006 s'ha anat estenent per Europa. És una plaga que defolia el boix. El 2014 es va detectar per primer cop a Catalunya. Tot i que no és una espècie diürna, s'aprofiten els recomptes de l'uBMS per a fer un seguiment de la seva presència als parcs de la ciutat."
     },
     {
         "id": 47,
@@ -400,7 +498,10 @@
         "familia": "Pieridae",
         "imatge": "a-cardamines-small.png",
         "determinada": true,
-        "envergadura": 40
+        "envergadura": 40,
+        "SSI": 0.857,
+        "TAO": -0.020,
+        "text1": "Espècie pròpia d'ambients humits, tot i que alguns exemplars poden arribar a aparèixer als parcs de Barcelona. Fa una sola generació, que vola de març a abril."
     },
     {
         "id": 122,
@@ -411,7 +512,10 @@
         "familia": "Nymphalidae",
         "imatge": "a-ilia-small.png",
         "determinada": true,
-        "envergadura": 60
+        "envergadura": 60,
+        "SSI": 1.435,
+        "TAO": 0.014,
+        "text1": "Papallona típica dels boscos de ribera, on s'hi troben els salzes i els pollancres que fa servir com a planta nutrícia. Vola en dues generacions, la primera entre maig i juliol i la segona cap a finals d'agost-setembre. Els adults no s'alimenten de nèctar de flors, sinó que es nodreixen de fruita madura, exsudats d'arbres i excrements i cadàvers d'animals."
     },
     {
         "id": 912,
@@ -421,7 +525,8 @@
         "nomEng": "",
         "familia": "Nymphalidae",
         "imatge": "satyridae-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "Els satirins o satírids són una subfamília dels nimfàlids que comprèn un gran nombre d'espècies. A Barcelona hi trobem la margenera comuna, la bruna de bosc, la bruna de prat, la saltabardisses de solell, la saltabardisses cintada, l'escac ibèric, la bruixa, el faune bru, el faune de ziga-zaga i el faune lleonat. La majoria d'aquestes espècies són de mides i colors similars, la qual cosa en pot dificultar la determinació."
     },
     {
         "id": 13,
@@ -432,7 +537,10 @@
         "familia": "Hesperiidae",
         "imatge": "p-malvoides-small.png",
         "determinada": true,
-        "envergadura": 25
+        "envergadura": 25,
+        "SSI": 0.891,
+        "TAO": 0.553,
+        "text1": "Petita papallona que podem trobar en prats i clarianes. Les seves larves s'alimenten de diverses plantes, com l'esbarzer, la maduixera o el gram negre. Vola en dues generacions, la primera entre març i maig, i la segona entre agost i setembre."
     },
     {
         "id": 57,
@@ -443,7 +551,10 @@
         "familia": "Nymphalidae",
         "imatge": "d-chrysippus-small.png",
         "determinada": true,
-        "envergadura": 80
+        "envergadura": 80,
+        "SSI": 3.107,
+        "TAO": 0.627,
+        "text1": "Papallona típica de zones d'aiguamolls, és habitual trobar-la al delta del Llobregat, pel que puntualment se'n poden arribar a veure exemplars als parcs barcelonins més propers al mar. És una espècie migradora que no sobreviu a l'hivern barceloní. Els primers migrants arriben del Sud cap al juny, i s'estableixen aquí produint dues o tres generacions i arribant a ser força abundants cap al final de l'estiu."
     },
     {
         "id": 91,
@@ -454,7 +565,10 @@
         "familia": "Nymphalidae",
         "imatge": "m-lachesis-small.png",
         "determinada": true,
-        "envergadura": 53
+        "envergadura": 53,
+        "SSI": 0.990,
+        "TAO": 0.456,
+        "text1": "Papallona molt comuna a Catalunya, típica de prats i conreus, preferint zones amb herba alta. Cap a la costa i en ambients humanitzats esdevé més escassa. Vola entre el maig i el juny."
     },
     {
         "id": 131,
@@ -465,7 +579,10 @@
         "familia": "Nymphalidae",
         "imatge": "p-c-album-small.png",
         "determinada": true,
-        "envergadura": 45
+        "envergadura": 45,
+        "SSI": 0.920,
+        "TAO": -0.039,
+        "text1": "Espècie típica de boscos de caducifolis i de ribera. Vola des de febrer-març fins a l'octubre, en tres generacions diferents. Les seves erugues s'alimenten de plantes com l'ortiga, l'om o el gatell. Els mascles tenen un comportament territorial."
     },
     {
         "id": 101,
@@ -476,7 +593,10 @@
         "familia": "Nymphalidae",
         "imatge": "h-fidia-small.png",
         "determinada": true,
-        "envergadura": 52
+        "envergadura": 52,
+        "SSI": 1.073,
+        "TAO": 0.203,
+        "text1": "Papallona que prefereix llocs secs i assolellats. La podem veure volar a partir de mitjans de juny, en una única generació que s'allarga fins a finals de setembre. Els mascles són territorials. Pel seu aspecte i comportament, és molt fàcil de confondre amb el faune bru."
     },
     {
         "id": 100,
@@ -487,7 +607,10 @@
         "familia": "Nymphalidae",
         "imatge": "h-statilinus-small.png",
         "determinada": true,
-        "envergadura": 52
+        "envergadura": 52,
+        "SSI": 0.975,
+        "TAO": 0.316,
+        "text1": "Papallona que prefereix llocs oberts, secs i assolellats. La podem veure volar a partir de mitjans de juny, en una única generació que s'allarga fins a finals de setembre. Els mascles són territorials. Pel seu aspecte i comportament, és fàcil de confondre amb el faune de ziga-zaga."
     },
     {
         "id": 913,
@@ -497,7 +620,8 @@
         "nomEng": "",
         "familia": "Hesperiidae",
         "imatge": "pyrgus-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "A Catalunya hi viuen una desena d'espècies de merlets (gènere Pyrgus), tot i que la majoria en hàbitats de muntanya. A la zona de Barcelona és probable que només hi voli el merlet comú, tot i que no es pot descartar trobar-hi algun exemplar de merlet ruderal. Són papallones molt petites i de difícil determinació. El merlet comú és més fosc i contrastat, i el seu revers és més vermellós que el del merlet ruderal."
     },
     {
         "id": 29,
@@ -508,7 +632,10 @@
         "familia": "Hesperiidae",
         "imatge": "o-sylvanus-small.png",
         "determinada": true,
-        "envergadura": 30
+        "envergadura": 30,
+        "SSI": 0.707,
+        "TAO": 0.280,
+        "text1": "Petita papallona que acostumem a trobar en zones humides i boscoses. Vola en dues generacions, una entre finals d'abril i juny, i una altra entre agost i octubre. Els mascles tenen comportament territorial, i acostumen a posar-se sobre branques d'arbustos o herbes altes que defensen davant la presència d'altres mascles."
     },
     {
         "id": 102,
@@ -519,7 +646,10 @@
         "familia": "Nymphalidae",
         "imatge": "h-semele-small.png",
         "determinada": true,
-        "envergadura": 54
+        "envergadura": 54,
+        "SSI": 0.888,
+        "TAO": 0.246,
+        "text1": "Espècie força comuna, que pot ocupar diferents tipus d'hàbitat, entre els quals les zones obertes i clarianes de bosc. Acostuma a aturar-se als troncs dels arbres, i els mascles presenten comportament territorial. Vola en una única generació, des de finals de maig fins la tardor."
     },
     {
         "id": 914,
@@ -529,7 +659,8 @@
         "nomEng": "",
         "familia": "Nymphalidae",
         "imatge": "melanargia-small.png",
-        "determinada": false
+        "determinada": false,
+        "text1": "És probable que a Barcelona només hi voli l'escac ibèric, tot i que puntualment també hi podria aparèixer l'escac ferruginós, espècie que està en forta regressió i que es considera gairebé amenaçada."
     },
     {
         "id": 132,
@@ -540,6 +671,9 @@
         "familia": "Nymphalidae",
         "imatge": "e-aurinia-small.png",
         "determinada": true,
-        "envergadura": 40
+        "envergadura": 40,
+        "SSI": 0.968,
+        "TAO": 0.236,
+        "text1": "Papallona que prefereix hàbitats oberts en màquies o a la vora d'alzinars. Vola en una única generació cap al maig-juny. Al litoral i prelitoral catalans la seva planta nutrícia són els lligaboscs."
     }
 ]
