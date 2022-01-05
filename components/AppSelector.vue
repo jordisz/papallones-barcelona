@@ -1,6 +1,7 @@
 <template>
   <div>
-    <select v-model="selected" @change="emitSelectedItem">
+    <label :for="idName">{{ label }}</label>
+    <select :id="idName" v-model="selected" @change="emitSelectedItem">
       <option v-for="(item, index) in list" :key="index" :value="item">
         {{ item }}
       </option>
@@ -14,6 +15,14 @@ export default {
   props: {
     list: {
       type: Array,
+      required: true
+    },
+    idName: {
+      type: String,
+      required: true
+    },
+    label: {
+      type: String,
       required: true
     }
   },
