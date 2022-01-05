@@ -175,4 +175,14 @@ html {
 .flip-cards-move {
   transition: transform .7s;
 }
+
+.link-sp {
+  text-decoration: none;
+  font-size: .9rem;
+  background-color: rgba(20, 133, 20, 0.7);
+  color: white;
+  padding: .25rem;
+  border: 1px solid green;
+  border-radius: 3px;
+}
 </style>

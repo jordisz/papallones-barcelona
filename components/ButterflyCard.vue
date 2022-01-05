@@ -69,6 +69,7 @@ export default {
   margin: .5rem 0 0;
   font-size: 1rem;
   font-weight: lighter;
+  color: #444;
 }
 .card img {
   transform: scale(.92);
@@ -82,18 +83,12 @@ export default {
   justify-content: center;
 }
 .card p {
+  font-size: 1rem;
   text-align: center;
   margin: .4rem;
 }
 
 .link-sp {
-  align-self: flex-end;
-  text-decoration: none;
-  font-size: .9rem;
-  background-color: rgba(20, 133, 20, 0.7);
-  color: white;
-  padding: .25rem;
-  border: 1px solid green;
-  border-radius: 3px;
+    align-self: flex-end;
 }
 </style>
