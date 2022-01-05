@@ -5,7 +5,7 @@
     </p>
     <ul class="nav">
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/especies">
           Espècies
         </NuxtLink>
       </li>
