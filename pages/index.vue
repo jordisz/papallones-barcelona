@@ -1,11 +1,14 @@
 <template>
   <div v-if="isDataReady">
-    <div class="filters-bar">
-      <AppSelector :list="parcNamesArray" @item-selected="filtraParc" />
-      <AppSelector :list="parcYearsArray" @item-selected="setSelectedYear" />
-    </div>
+    <h1 class="titol">
+      Recomptes als parcs de Barcelona
+    </h1>
     <div class="summary">
-      {{ parcName }} ({{ selectedYear }}) - {{ countOnlyDeterminedSpecies }} espècies
+      <div>{{ parcName }} ({{ selectedYear }}) - {{ countOnlyDeterminedSpecies }} espècies</div>
+    </div>
+    <div class="filters-bar">
+      <AppSelector class="selector" id-name="filtraParc" label="Filtra per parc" :list="parcNamesArray" @item-selected="filtraParc" />
+      <AppSelector class="selector" id-name="filtraAny" label="Filtra per any" :list="parcYearsArray" @item-selected="setSelectedYear" />
     </div>
     <transition-group name="flip-cards" tag="div" class="cards-container">
       <ButterflyCard v-for="especie in filteredByYear" :key="especie[0]" :especie="especie" />
@@ -33,7 +36,7 @@ export default {
       /** Array with observations filtered by selected park (populated by filtraParc method) */
       orderedData: [],
       /** Current selected year */
-      selectedYear: 'TOTAL HISTORIC',
+      selectedYear: 'TOTAL HISTÒRIC',
       /** Attributes of the different species */
       EspeciesInfo
     }
@@ -65,12 +68,12 @@ export default {
         })
       })
       yearsArray.sort()
-      yearsArray = ['TOTAL HISTORIC', ...yearsArray]
+      yearsArray = ['TOTAL HISTÒRIC', ...yearsArray]
       return yearsArray
     },
     /** Filters current park data by selected year */
     filteredByYear () {
-      if (this.selectedYear === 'TOTAL HISTORIC') {
+      if (this.selectedYear === 'TOTAL HISTÒRIC') {
         return this.orderedData
       }
       const filteredArray = []
@@ -128,21 +131,33 @@ html {
   font-family: 'Cabin', sans-serif;
 }
 
+.titol {
+  text-align: center;
+  margin-bottom: 0;
+}
+
 .filters-bar {
   width: 100vw;
   height: 5rem;
   display: flex;
   align-items: center;
+  margin-left: 4vw;
+}
+
+.selector {
+  margin: 0 1rem;
 }
 
 .summary {
   text-align: center;
+  margin-top: .6rem;
+  color: #444;
 }
 
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  gap: .7rem;
+  gap: .6rem;
   margin: 1rem auto 0;
   width: 94vw;
 }
