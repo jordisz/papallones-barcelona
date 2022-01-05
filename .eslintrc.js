@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     indent: ['error', 2],
     'object-shorthand': ['warn'],
-    'no-unused-vars': ['warn']
+    'no-unused-vars': ['warn'],
+    'vue/multi-word-component-names': ['warn']
   }
 }
