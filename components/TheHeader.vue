@@ -1,7 +1,9 @@
 <template>
   <div class="header">
     <p class="title">
-      Les papallones de Barcelona
+      <NuxtLink to="/">
+        Les papallones de Barcelona
+      </NuxtLink>
     </p>
     <ul class="nav">
       <li>
@@ -10,7 +12,7 @@
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">
+        <NuxtLink to="/recomptes">
           Recomptes parcs uBMS
         </NuxtLink>
       </li>
@@ -47,7 +49,8 @@ export default {
   margin: 0;
   padding: 0 1rem;
 }
-.nav li a {
+.nav li a,
+.title a {
   text-decoration: none;
 }
 
