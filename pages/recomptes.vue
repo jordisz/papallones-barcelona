@@ -122,6 +122,10 @@ export default {
       return year
     },
     sortData (data) {
+      /** Get total number of exemplars of each species, save it in each species array[2]  */
+      data.forEach((especie) => {
+        especie[2] = especie[1].reduce((prev, curr) => prev + curr.t, 0)
+      })
       return data.sort((a, b) => b[1].length - a[1].length)
     }
   }

@@ -7,7 +7,7 @@
     <div class="image-container">
       <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
     </div>
-    <p>{{ exemplars }} exemplars en <br /> {{ especie[1].length }} mostrejos</p>
+    <p>{{ especie[2] }} exemplars en <br /> {{ especie[1].length }} mostrejos</p>
     <ButterflyGraph :id="info.id" :observacions="especie[1]" />
     <NuxtLink class="link-sp" :to="`/especies/${info.id}`">
       Veure fitxa
@@ -34,10 +34,10 @@ export default {
     info () {
       const index = this.$options.especiesInfoArray.findIndex(element => element.nomCientific === this.$props.especie[0])
       return this.$options.especiesInfoArray[index]
-    },
-    exemplars () {
-      return this.$props.especie[1].reduce((prev, cur) => prev + cur.t, 0)
     }
+  /*     exemplars () {
+      return this.$props.especie[1].reduce((prev, cur) => prev + cur.t, 0)
+    } */
   }
 }
 </script>
