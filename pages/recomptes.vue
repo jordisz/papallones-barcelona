@@ -9,6 +9,9 @@
     <div class="filters-bar">
       <AppSelector class="selector" id-name="filtraParc" label="Filtra per parc" :list="parcNamesArray" @item-selected="filtraParc" />
       <AppSelector class="selector" id-name="filtraAny" label="Filtra per any" :list="parcYearsArray" @item-selected="setSelectedYear" />
+      <AppRadioButtonGroup id="ordre" v-model="orderCriterion" :checked="orderCriteria[0]" :options="orderCriteria">
+        Ordena per:
+      </AppRadioButtonGroup>
     </div>
     <transition-group name="flip-cards" tag="div" class="cards-container">
       <ButterflyCard v-for="especie in filteredByYear" :key="especie[0]" :especie="especie" />
@@ -17,14 +20,16 @@
 </template>
 
 <script>
-import Parcs from '@/store/parcs.json'
-import AppSelector from '@/components/AppSelector'
-import ButterflyCard from '@/components/ButterflyCard'
-import EspeciesInfo from '@/store/especies.json'
+import Parcs from '~/store/parcs.json'
+import AppSelector from '~/components/AppSelector'
+import ButterflyCard from '~/components/ButterflyCard'
+import EspeciesInfo from '~/store/especies.json'
+import AppRadioButtonGroup from '~/components/AppRadioButtonGroup.vue'
 export default {
   name: 'IndexPage',
   components: {
     AppSelector,
+    AppRadioButtonGroup,
     ButterflyCard
   },
   data () {
@@ -38,7 +43,9 @@ export default {
       /** Current selected year */
       selectedYear: 'TOTAL HISTÒRIC',
       /** Attributes of the different species */
-      EspeciesInfo
+      EspeciesInfo,
+      orderCriteria: ['freqüència', 'abundància'],
+      orderCriterion: 'freqüència'
     }
   },
   computed: {
@@ -126,7 +133,12 @@ export default {
       data.forEach((especie) => {
         especie[2] = especie[1].reduce((prev, curr) => prev + curr.t, 0)
       })
-      return data.sort((a, b) => b[1].length - a[1].length)
+      if (this.orderCriterion === 'abundància') {
+        return data.sort((a, b) => b[2] - a[2])
+      } else {
+        const desempat = data.sort((a, b) => b[2] - a[2])
+        return desempat.sort((a, b) => b[1].length - a[1].length)
+      }
     }
   }
 }
