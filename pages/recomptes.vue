@@ -33,8 +33,8 @@ export default {
       Parcs,
       /** Current selected park name */
       parcName: '',
-      /** Array with observations filtered by selected park (populated by filtraParc method) */
-      orderedData: [],
+      /** Array with observations filtered by selected park (populated when data is ready and also by filtraParc method) */
+      byParcData: [],
       /** Current selected year */
       selectedYear: 'TOTAL HISTÒRIC',
       /** Attributes of the different species */
@@ -58,7 +58,7 @@ export default {
     /** Obtains a list with all the years with observations in the current park */
     parcYearsArray () {
       let yearsArray = []
-      this.orderedData.forEach((especie) => {
+      this.byParcData.forEach((especie) => {
         especie[1].forEach((observacio) => {
           const ddmmyyyy = observacio.fecha.split('-')
           const year = ddmmyyyy[2]
@@ -74,10 +74,11 @@ export default {
     /** Filters current park data by selected year */
     filteredByYear () {
       if (this.selectedYear === 'TOTAL HISTÒRIC') {
-        return this.orderedData
+        const sortedData = this.sortData(this.byParcData)
+        return sortedData
       }
       const filteredArray = []
-      this.orderedData.forEach((especie) => {
+      this.byParcData.forEach((especie) => {
         const tempEspecie = []
         tempEspecie[0] = especie[0]
         tempEspecie[1] = especie[1].filter(d => d.fecha.includes(this.selectedYear))
@@ -85,8 +86,8 @@ export default {
           filteredArray.push(tempEspecie)
         }
       })
-      filteredArray.sort((a, b) => b[1].length - a[1].length)
-      return filteredArray
+      const sortedData = this.sortData(filteredArray)
+      return sortedData
     },
     /** Returns count of species in park/year (ignoring undetermined observations) */
     countOnlyDeterminedSpecies () {
@@ -99,28 +100,29 @@ export default {
   watch: {
     isDataReady: function (oldval, dataReady) {
       const receivedTotalData = this.$store.getters.getTotalData
-      this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
+      this.byParcData = receivedTotalData
     }
   },
   created () {
     this.$store.dispatch('setInitialData')
   },
   methods: {
-    /** Populates orderedData array with observations in the selected park */
+    /** Populates byParcData array with observations in the selected park */
     filtraParc (parc) {
       this.parcName = parc
       if (parc === 'TOTS ELS PARCS') {
-        const receivedTotalData = this.$store.getters.getTotalData
-        this.orderedData = receivedTotalData.sort((a, b) => b[1].length - a[1].length)
+        this.byParcData = this.$store.getters.getTotalData
       } else {
-        const filteredData = this.$store.getters.getParcData(parc).observacions
-        this.orderedData = filteredData.sort((a, b) => b[1].length - a[1].length)
+        this.byParcData = this.$store.getters.getParcData(parc).observacions
       }
     },
     /** Sets the value of selectedYear variable */
     setSelectedYear (year) {
       this.selectedYear = year
       return year
+    },
+    sortData (data) {
+      return data.sort((a, b) => b[1].length - a[1].length)
     }
   }
 }
