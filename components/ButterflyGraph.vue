@@ -51,12 +51,6 @@ export default {
       this.drawGraph()
     })
   },
-  beforeUpdate () {
-    this.clearGraph()
-    this.$nextTick(() => {
-      this.drawGraph()
-    })
-  },
   methods: {
     drawGraph () {
       const canvas = d3.select(`.id${this.id}`)
@@ -83,7 +77,9 @@ export default {
         .attr('transform', 'translate(0,68)')
     },
     clearGraph () {
-      d3.select('svg').remove()
+      const canvas = d3.select(`.id${this.id}`)
+      const svg = canvas.select('svg')
+      svg.remove()
     }
   }
 }
