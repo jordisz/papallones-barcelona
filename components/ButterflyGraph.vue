@@ -63,7 +63,12 @@ export default {
       const rScale = d3.scaleLinear()
         .domain([0, 4000])
         .range([2, 210])
+      const tickLabels = ['Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Oct']
       const xAxis = d3.axisBottom(xScale)
+        .tickSizeInner(0)
+        .tickSizeOuter(0)
+        .tickValues([9, 14, 18, 23, 27, 32, 36, 40])
+        .tickFormat((d, i) => tickLabels[i])
       svg.selectAll('circle')
         .data(this.observationsPerWeek)
         .enter()
