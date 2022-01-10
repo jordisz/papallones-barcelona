@@ -1,21 +1,26 @@
 <template>
-  <div v-if="isDataReady">
-    <h1 class="titol">
-      Recomptes als parcs de Barcelona
-    </h1>
-    <div class="summary">
-      <div>{{ parcName }} ({{ selectedYear }}) - {{ countOnlyDeterminedSpecies }} espècies</div>
+  <div>
+    <div v-if="!isDataReady">
+      <p>Carregant dades...</p>
     </div>
-    <div class="filters-bar">
-      <AppSelector class="selector" id-name="filtraParc" label="Filtra per parc" :list="parcNamesArray" @item-selected="filtraParc" />
-      <AppSelector class="selector" id-name="filtraAny" label="Filtra per any" :list="parcYearsArray" @item-selected="setSelectedYear" />
-      <AppRadioButtonGroup id="ordre" v-model="orderCriterion" :checked="orderCriteria[0]" :options="orderCriteria">
-        Ordena per:
-      </AppRadioButtonGroup>
+    <div v-if="isDataReady">
+      <h1 class="titol">
+        Recomptes als parcs de Barcelona
+      </h1>
+      <div class="summary">
+        <div>{{ parcName }} ({{ selectedYear }}) - {{ countOnlyDeterminedSpecies }} espècies</div>
+      </div>
+      <div class="filters-bar">
+        <AppSelector class="selector" id-name="filtraParc" label="Filtra per parc" :list="parcNamesArray" @item-selected="filtraParc" />
+        <AppSelector class="selector" id-name="filtraAny" label="Filtra per any" :list="parcYearsArray" @item-selected="setSelectedYear" />
+        <AppRadioButtonGroup id="ordre" v-model="orderCriterion" :checked="orderCriteria[0]" :options="orderCriteria">
+          Ordena per:
+        </AppRadioButtonGroup>
+      </div>
+      <transition-group name="flip-cards" tag="div" class="cards-container">
+        <ButterflyCard v-for="especie in filteredByYear" :key="especie[0]" :especie="especie" />
+      </transition-group>
     </div>
-    <transition-group name="flip-cards" tag="div" class="cards-container">
-      <ButterflyCard v-for="especie in filteredByYear" :key="especie[0]" :especie="especie" />
-    </transition-group>
   </div>
 </template>
 
