@@ -31,6 +31,21 @@ export const getters = {
       })
     })
     return totalArray
+  },
+  getParcsWithSpecies: state => (species) => {
+    const parcsWithSpecies = []
+    state.data.forEach((parc) => {
+      const index = parc.observacions.findIndex(observacio => observacio[0] === species)
+      if (index > -1) {
+        const exemplars = parc.observacions[index][1].reduce((prev, curr) => prev + curr.t, 0)
+        parcsWithSpecies.push({
+          parc: parc.nom,
+          recomptes: parc.observacions[index][1].length,
+          exemplars
+        })
+      }
+    })
+    return parcsWithSpecies
   }
 }
 
