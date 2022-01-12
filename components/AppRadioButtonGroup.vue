@@ -1,7 +1,13 @@
 <template>
   <div class="button-group">
-    <label :for="id"><slot></slot></label>
-    <AppRadioButton v-for="(option, index) in options" :id="id" :key="index" :checked="checked" :option="option" />
+    <label class="button-group-label" :for="id"><slot></slot></label>
+    <AppRadioButton
+      v-for="(option, index) in options"
+      :id="id"
+      :key="index"
+      :checked="checked"
+      :option="option"
+    />
   </div>
 </template>
 
@@ -33,6 +39,11 @@ export default {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: .4rem;
+    overflow: hidden;
 }
+
+.button-group-label {
+  margin-right: .2rem;
+}
+
 </style>

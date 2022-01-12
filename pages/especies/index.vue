@@ -1,10 +1,14 @@
 <template>
-  <div class="container">
-    <ul v-for="(familia, index) in familiesArray" :key="index" class="familia-list">
-      <div class="familia-nom">{{ familia.nom }}</div>
-      <li v-for="(especie, i) in familia.especies" :key="i" class="list-item">
-        <SpeciesCard :especie="especie" />
-      </li>
+  <div class="list-container">
+    <ul v-for="(familia, index) in familiesArray" :key="index">
+      <h3 class="familia-nom">
+        {{ familia.nom }}
+      </h3>
+      <div class="familia-list">
+        <li v-for="(especie, i) in familia.especies" :key="i" class="list-item">
+          <SpeciesCard :especie="especie" />
+        </li>
+      </div>
     </ul>
   </div>
 </template>
@@ -45,18 +49,30 @@ export default {
 </script>
 
 <style scoped>
+.list-container {
+  margin-top: 2rem;
+  width: 75vw;
+  margin: auto;
+}
 .familia-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  width: 70vw;
+  grid-template-columns: repeat(auto-fit, 254px);
+  padding: .8rem;
+  margin: 0;
 }
 
 .familia-nom {
-  height: 2rem;
-  width: 90vw;
+  font-style: italic;
+  font-weight: 400;
+  height: 1rem;
+  width: 100%;
+  margin: 0;
 }
 .list-item {
   display: block;
-  width: 30ch;
+  width: 254px;
+  margin: 1rem;
 }
 
 </style>
