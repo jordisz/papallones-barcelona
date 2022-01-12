@@ -3,7 +3,7 @@
     <div v-if="!isDataReady">
       <p>Carregant dades...</p>
     </div>
-    <div v-if="isDataReady">
+    <div v-if="isDataReady" class="page-container">
       <h1 class="titol">
         Recomptes als parcs de Barcelona
       </h1>
@@ -154,6 +154,11 @@ html {
   font-family: 'Cabin', sans-serif;
 }
 
+.page-container {
+  width: 90vw;
+  margin: auto;
+}
+
 .titol {
   text-align: center;
   margin-bottom: 0;
@@ -178,11 +183,30 @@ html {
 }
 
 .cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .6rem;
+/*   display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin: 1rem auto 0;
-  width: 94vw;
+  gap: .6rem;
+}
+
+@media (max-width: 1590px) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .flip-cards-enter-active,
