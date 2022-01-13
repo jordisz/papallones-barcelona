@@ -1,6 +1,6 @@
 <template>
   <div class="list-container">
-    <ul v-for="(familia, index) in familiesArray" :key="index">
+    <ul v-for="(familia, index) in familiesArray" :key="index" :style="$store.getters.getFamilyColor(familia.nom)">
       <h3 class="familia-nom">
         {{ familia.nom }}
       </h3>
@@ -54,12 +54,14 @@ export default {
   width: 75vw;
   margin: auto;
 }
+
 .familia-list {
   display: grid;
   width: 70vw;
   grid-template-columns: repeat(auto-fit, 254px);
-  padding: .8rem;
+  padding: 0 .6rem;
   margin: 0;
+  border-left: 4px solid var(--sp-color);
 }
 
 .familia-nom {
@@ -67,7 +69,7 @@ export default {
   font-weight: 400;
   height: 1rem;
   width: 100%;
-  margin: 0;
+  margin: 0 0 .6rem .3rem;
 }
 .list-item {
   display: block;

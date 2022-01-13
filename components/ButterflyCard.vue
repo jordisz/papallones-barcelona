@@ -1,7 +1,9 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <h2>{{ info.nomCat }}</h2>
+      <h2 class="nom-comu">
+        {{ info.nomCat }}
+      </h2>
       <h3><em>{{ info.nomCientific }}</em></h3>
     </div>
     <div class="image-container">
@@ -35,9 +37,6 @@ export default {
       const index = this.$options.especiesInfoArray.findIndex(element => element.nomCientific === this.$props.especie[0])
       return this.$options.especiesInfoArray[index]
     }
-  /*     exemplars () {
-      return this.$props.especie[1].reduce((prev, cur) => prev + cur.t, 0)
-    } */
   }
 }
 </script>
@@ -61,7 +60,7 @@ export default {
   align-items: center;
   min-height: 50px;
 }
-.card-header h2 {
+.nom-comu {
   margin: 0;
   font-size: 1.3rem;
 }

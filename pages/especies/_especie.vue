@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-    <p><em>{{ info.familia }}</em></p>
+  <div class="container" :style="$store.getters.getFamilyColor(info.familia)">
+    <p class="familia">
+      <em>{{ info.familia }}</em>
+    </p>
     <div class="nom-group">
       <div class="nom-left">
         <h2 class="nom-comu">
@@ -62,6 +64,10 @@ export default {
   margin: auto;
 }
 
+.familia {
+  color: #444;
+}
+
 .nom-group {
   display: flex;
   justify-content: space-between;
@@ -69,6 +75,7 @@ export default {
 
 .nom-comu {
   margin: 0;
+  border-bottom: 2px solid var(--sp-color);
 }
 
 .nom-cientific {

@@ -1,12 +1,18 @@
 import parcList from './parcs.json'
 
 export const state = () => ({
-  counter: 0,
   data: [],
   especiesParcSeleccionat: [],
   especiesFiltrades: [],
   parcList,
-  fetched: null
+  fetched: null,
+  colors: [
+    ['Papilionidae', '#8d95a666'],
+    ['Hesperiidae', '#a6625365'],
+    ['Pieridae', '#a8bfb577'],
+    ['Nymphalidae', '#f2cb9b99'],
+    ['Lycaenidae', '#9386a655']
+  ]
 })
 
 export const getters = {
@@ -46,6 +52,12 @@ export const getters = {
       }
     })
     return parcsWithSpecies
+  },
+  getFamilyColor: state => (family) => {
+    const index = state.colors.findIndex(el => el[0] === family)
+    return {
+      '--sp-color': state.colors[index][1]
+    }
   }
 }
 
