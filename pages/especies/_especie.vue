@@ -1,22 +1,28 @@
 <template>
   <div class="container">
     <p><em>{{ info.familia }}</em></p>
-    <h2>
-      {{ info.nomCat }}
-    </h2>
-    <h3><em>{{ info.nomCientific }}</em></h3>
-    <ul v-if="info.nomCast !== ''">
-      <li>Cast: {{ info.nomCast }}</li>
-      <li>Eng: {{ info.nomEng }}</li>
-    </ul>
-    <p>{{ info.text1 }}</p>
-    <div v-if="isDataReady">
-      <p v-for="(parc, index) in parcsWithSpecies" :key="index">
-        {{ parc.parc }}: {{ parc.recomptes }}
-        {{ parc.recomptes === 1 ? 'recompte' : 'recomptes' }}
-        ({{ parc.exemplars }} {{ parc.exemplars === 1 ? 'exemplar' : 'exemplars' }} en total)
-      </p>
+    <div class="nom-group">
+      <div class="nom-left">
+        <h2 class="nom-comu">
+          {{ info.nomCat }}
+        </h2>
+        <h3 class="nom-cientific"><em>{{ info.nomCientific }}</em></h3>
+      </div>
+      <ul v-if="info.nomCast !== ''" class="nom-right">
+        <li>Cast: {{ info.nomCast }}</li>
+        <li>Eng: {{ info.nomEng }}</li>
+      </ul>
     </div>
+    <p>{{ info.text1 }}</p>
+    <ul v-if="isDataReady" class="llista-parcs">
+      <li v-for="(parc, index) in parcsWithSpecies" :key="index">
+        {{ parc.parc }}: {{ parc.recomptes }}
+        <span class="lighter">
+          {{ parc.recomptes === 1 ? 'recompte' : 'recomptes' }}
+          ({{ parc.exemplars }} {{ parc.exemplars === 1 ? 'exemplar' : 'exemplars' }})
+        </span>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -54,5 +60,44 @@ export default {
 .container {
   width: 72vw;
   margin: auto;
+}
+
+.nom-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nom-comu {
+  margin: 0;
+}
+
+.nom-cientific {
+  margin-top: .4rem;
+  font-weight: 400;
+}
+
+.nom-right {
+  list-style: none;
+  font-size: .9rem;
+  color: #333;
+  padding-right: 3rem;
+}
+
+.llista-parcs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 33vh;
+  font-size: .95rem;
+  margin-top: 1.4rem;
+}
+
+.llista-parcs li {
+  line-height: 1.4rem;
+}
+
+.lighter {
+    color: #333;
 }
 </style>
