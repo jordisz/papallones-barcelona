@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'ubms-data',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ca'
     },
     meta: [
       { charset: 'utf-8' },
