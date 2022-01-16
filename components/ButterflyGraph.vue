@@ -76,7 +76,7 @@ export default {
         .attr('cx', d => xScale(d.weekNumber))
         .attr('cy', 40)
         .attr('r', d => rScale(d.value))
-        .attr('fill', 'blue')
+        .attr('fill', '#4747D1')
       svg.append('g')
         .call(xAxis)
         .attr('transform', 'translate(0,68)')

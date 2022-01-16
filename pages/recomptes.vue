@@ -226,7 +226,7 @@ html {
 .link-sp {
   text-decoration: none;
   font-size: .9rem;
-  background-color: rgba(20, 133, 20, 0.7);
+  background-color: #148514b3;
   color: white;
   padding: .25rem;
   border: 1px solid green;

@@ -8,14 +8,21 @@
         <h2 class="nom-comu">
           {{ info.nomCat }}
         </h2>
-        <h3 class="nom-cientific"><em>{{ info.nomCientific }}</em></h3>
+        <h3 class="nom-cientific">
+          <em>{{ info.nomCientific }}</em>
+        </h3>
       </div>
       <ul v-if="info.nomCast !== ''" class="nom-right">
         <li>Cast: {{ info.nomCast }}</li>
         <li>Eng: {{ info.nomEng }}</li>
       </ul>
     </div>
-    <p>{{ info.text1 }}</p>
+    <div class="image-text-container">
+      <img class="img-large" :src="require(`~/assets/species-page-images/${ info.imgL }`)" alt="">
+      <div class="text-wrapper">
+        <p class="info-text">{{ info.text1 }}</p>
+      </div>
+    </div>
     <ul v-if="isDataReady" class="llista-parcs">
       <li v-for="(parc, index) in parcsWithSpecies" :key="index">
         {{ parc.parc }}: {{ parc.recomptes }}
@@ -88,6 +95,31 @@ export default {
   font-size: .9rem;
   color: #333;
   padding-right: 3rem;
+}
+
+.image-text-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-large {
+  margin-left: 1rem;
+  border: 2px solid var(--sp-color);
+  border-radius: 6px;
+  box-shadow: .2rem .2rem .4rem rgba(88, 88, 88, 0.2);
+}
+
+.text-wrapper {
+  padding: 0 2rem 0;
+  margin-right: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.info-text {
+  line-height: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .llista-parcs {
