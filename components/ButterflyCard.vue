@@ -47,7 +47,9 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 364px;
+  margin: auto;
+  width: 340px;
+  height: 480px;
   padding: 1rem;
   border: 1px solid rgb(190, 190, 190);
   border-radius: .2rem;
