@@ -32,6 +32,7 @@ export default {
   font-size: 2rem;
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: 55%;
   background-size: cover;
 }
 
