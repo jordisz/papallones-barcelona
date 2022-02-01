@@ -20,7 +20,9 @@
     <div class="image-text-container">
       <img class="img-large" :src="require(`~/assets/species-page-images/${ info.imgL }`)" alt="">
       <div class="text-wrapper">
-        <p class="info-text">{{ info.text1 }}</p>
+        <p class="info-text">
+          {{ info.text1 }}
+        </p>
       </div>
     </div>
     <ul v-if="isDataReady" class="llista-parcs">
@@ -94,7 +96,13 @@ export default {
   list-style: none;
   font-size: .9rem;
   color: #333;
-  padding-right: 3rem;
+  padding: 0 3rem;
+}
+
+@media (max-width: 700px) {
+  .nom-right {
+    padding-right: 0;
+  }
 }
 
 .image-text-container {
@@ -102,17 +110,33 @@ export default {
   flex-direction: row;
 }
 
+@media (max-width: 1200px) {
+  .image-text-container {
+    flex-direction: column;
+  }
+}
+
 .img-large {
+  max-width: 400px;
   margin-left: 1rem;
   border: 2px solid var(--sp-color);
   border-radius: 6px;
   box-shadow: .2rem .2rem .4rem rgba(88, 88, 88, 0.2);
 }
 
+@media (max-width: 500px) {
+  .img-large {
+    margin-left: 0;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 .text-wrapper {
   padding: 0 2rem 0;
   margin-right: 1rem;
-  height: 400px;
   display: flex;
   align-items: flex-end;
 }
@@ -129,7 +153,13 @@ export default {
   flex-wrap: wrap;
   max-height: 33vh;
   font-size: .95rem;
-  margin-top: 1.4rem;
+  margin: 1.4rem 0 0;
+}
+
+@media (max-width: 1000px) {
+  .llista-parcs {
+    flex-wrap: nowrap;
+  }
 }
 
 .llista-parcs li {
