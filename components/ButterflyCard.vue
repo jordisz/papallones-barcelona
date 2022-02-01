@@ -9,7 +9,11 @@
     <div class="image-container">
       <img :src="require(`~/assets/butterfly-icons/${info.imatge}`)" alt="">
     </div>
-    <p>{{ especie[2] }} exemplars en <br /> {{ especie[1].length }} mostrejos</p>
+    <p>
+      {{ especie[2] }} {{ especie[2] === 1 ? 'exemplar' : 'exemplars' }} en
+      <br />
+      {{ especie[1].length }} {{ especie[1].length === 1 ? 'mostreig' : 'mostrejos' }}
+    </p>
     <ButterflyGraph :id="info.id" :observacions="especie[1]" />
     <NuxtLink class="link-sp" :to="`/especies/${info.id}`">
       Veure fitxa
