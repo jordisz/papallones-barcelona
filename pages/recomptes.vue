@@ -165,11 +165,17 @@ html {
 }
 
 .filters-bar {
-  width: 100vw;
   height: 5rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  margin-left: 4vw;
+  justify-content: center;
+}
+
+@media (max-width: 1020px) {
+  .filters-bar {
+    margin-top: 1rem;
+  }
 }
 
 .selector {
