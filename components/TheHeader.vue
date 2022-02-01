@@ -36,7 +36,7 @@ export default {
   height: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding: 0 4vw;
   text-transform: uppercase;
   background-color: rgba(90, 169, 90, 0.3);
