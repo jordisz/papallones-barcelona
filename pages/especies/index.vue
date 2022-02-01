@@ -50,9 +50,14 @@ export default {
 
 <style scoped>
 .list-container {
-  margin-top: 2rem;
+  padding-top: 1rem;
   width: 75vw;
   margin: auto;
+}
+
+ul {
+  margin: 2rem 0 0;
+  padding: 0;
 }
 
 .familia-list {
