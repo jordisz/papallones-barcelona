@@ -33,6 +33,7 @@ export default {
 
 <style scoped>
 .header {
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
