@@ -1,14 +1,24 @@
 <template>
   <main class="main-content">
-    <section class="seccio">
-      <h2>Quines són les espècies de papallones que trobem als parcs de Barcelona?</h2>
-    </section>
-    <section class="seccio">
-      <h2>Quina informació ens aporta el seguiment de les poblacions de papallones?</h2>
-    </section>
-    <section class="seccio">
-      <h2>Consulta les dades de l'observatori de papallones urbanes</h2>
-    </section>
+    <ul class="link-list">
+      <div :style="{backgroundImage: `url('~/assets/species-page-images/a-ilia-1.jpg')`}">
+        <li class="list-item">
+          <nuxt-link to="/especies">
+            Quines són les espècies de papallones que trobem als parcs de Barcelona?
+          </nuxt-link>
+        </li>
+      </div>
+      <li class="list-item">
+        <nuxt-link to="/">
+          Quina informació ens aporta el seguiment de les poblacions de papallones?
+        </nuxt-link>
+      </li>
+      <li class="list-item">
+        <nuxt-link to="/recomptes">
+          Consulta les dades de l'observatori de papallones urbanes
+        </nuxt-link>
+      </li>
+    </ul>
   </main>
 </template>
 
@@ -22,22 +32,21 @@ export default {
 .main-content {
   font-size: 2rem;
 }
-.seccio {
-  height: 30vh;
-  display: flex;
-  align-items: flex-end;
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.seccio:nth-of-type(1) {
-  background-color: rgba(0, 255, 255, 0.5);
+
+.list-item {
+  display: block;
+  height: 25vh;
+  margin-top: 2rem;
 }
-.seccio:nth-of-type(2) {
-  background-color: rgba(0, 100, 0, 0.5);
-}
-.seccio:nth-of-type(3) {
-  background-color: rgba(184, 135, 11, 0.5);
-}
-.seccio:nth-of-type(even){
-  justify-content: right;
+
+.list-item a {
+  text-decoration: none;
 }
 
 </style>
