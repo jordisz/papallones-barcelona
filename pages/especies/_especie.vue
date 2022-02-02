@@ -141,6 +141,15 @@ ul {
   align-items: flex-end;
 }
 
+@media (max-width: 1200px) {
+  .text-wrapper {
+    padding: 0;
+  }
+  .img-large {
+    margin: 0;
+  }
+}
+
 .info-text {
   line-height: 1.4rem;
   font-size: 1.1rem;
