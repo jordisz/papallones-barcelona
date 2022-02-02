@@ -22,6 +22,9 @@
         </NuxtLink>
       </li>
     </ul>
+    <div class="toggler">
+      <img src="/ic_fluent_navigation_24_filled.png" alt="Obre menú" height="34px">
+    </div>
   </div>
 </template>
 
@@ -53,6 +56,17 @@ export default {
 .nav li a,
 .title a {
   text-decoration: none;
+}
+
+@media (max-width: 950px) {
+  .nav {
+    display: none;
+  }
+}
+@media (min-width: 950px) {
+  .toggler {
+    display: none;
+  }
 }
 
 </style>
