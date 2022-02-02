@@ -59,6 +59,11 @@ export default {
   border-radius: .2rem;
   box-shadow: .2rem .2rem .4rem rgba(88, 88, 88, 0.2);
 }
+@media (max-width: 380px) {
+  .card {
+    width: 290px;
+  }
+}
 
 .card-header {
   display: flex;
