@@ -159,6 +159,12 @@ html {
   margin: auto;
 }
 
+@media (max-width: 364px) {
+  .page-container {
+    margin: 0 1px;
+  }
+}
+
 .titol {
   text-align: center;
   margin-bottom: 0;
@@ -180,6 +186,17 @@ html {
 
 .selector {
   margin: 0 1rem;
+}
+@media (max-width: 390px) {
+  .filters-bar {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .selector {
+    margin-bottom: .4rem;
+  }
 }
 
 .summary {
