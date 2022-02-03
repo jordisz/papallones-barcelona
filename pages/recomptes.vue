@@ -155,13 +155,17 @@ html {
 }
 
 .page-container {
-  width: 90vw;
   margin: auto;
 }
 
-@media (max-width: 364px) {
+@media (max-width: 350px) {
   .page-container {
     margin: 0 1px;
+  }
+}
+@media (min-width: 1000px) {
+  .page-container {
+    width: 90vw;
   }
 }
 
