@@ -29,7 +29,6 @@ export default {
 <style scoped>
 .main-content {
   height: calc(100vh - 70px);
-  font-size: 2rem;
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 55%;
@@ -52,6 +51,13 @@ export default {
   display: block;
   height: 22vh;
   margin-top: 2rem;
+  font-size: 2em;
+}
+
+@media (max-width: 500px) {
+  .list-item {
+    font-size: 1.5em;
+  }
 }
 
 .list-item a {
