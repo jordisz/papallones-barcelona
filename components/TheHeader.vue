@@ -77,6 +77,9 @@ a:hover,
 a:active {
   text-decoration: underline;
 }
+.title a:active {
+  text-decoration: none;
+}
 .header {
   text-transform: uppercase;
   background-color: #5aa95a4d;
