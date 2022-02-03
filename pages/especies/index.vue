@@ -50,7 +50,7 @@ export default {
 
 <style scoped>
 .list-container {
-  padding-top: 1rem;
+  padding: 1rem 0 2rem;
   width: 75vw;
   margin: auto;
 }
