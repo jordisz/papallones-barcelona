@@ -64,6 +64,7 @@ export default {
   text-decoration: none;
   padding: 0 1rem  0 0;
   background-color: #ffffff88;
+  color: #551a8b;
 }
 
 </style>
