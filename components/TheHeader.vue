@@ -23,24 +23,24 @@
           </NuxtLink>
         </li>
       </ul>
-      <div class="toggler" @click="handleToggleMenu">
+      <div class="toggler" @click="toggleMenu">
         <img src="/ic_fluent_navigation_24_filled.png" alt="Obre menú" height="34px">
       </div>
     </div>
     <div v-if="mobileMenu" class="bottom">
       <ul class="bottom-nav">
         <li class="bottom-item">
-          <NuxtLink to="/especies">
+          <NuxtLink to="/especies" @click.native="toggleMenu">
             Espècies
           </NuxtLink>
         </li>
         <li class="bottom-item">
-          <NuxtLink to="/recomptes">
+          <NuxtLink to="/recomptes" @click.native="toggleMenu">
             Recomptes parcs uBMS
           </NuxtLink>
         </li>
         <li class="bottom-item">
-          <NuxtLink to="#">
+          <NuxtLink to="#" @click.native="toggleMenu">
             Preguntes freqüents
           </NuxtLink>
         </li>
@@ -58,7 +58,7 @@ export default {
     }
   },
   methods: {
-    handleToggleMenu () {
+    toggleMenu () {
       this.mobileMenu = !this.mobileMenu
     }
   }
@@ -66,9 +66,20 @@ export default {
 </script>
 
 <style scoped>
+a,
+a:visited {
+  color: #24248f;
+  font-size: 1.06rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+}
 .header {
   text-transform: uppercase;
-  background-color: rgba(90, 169, 90, 0.3);
+  background-color: #5aa95a4d;
 }
 .top {
   height: 70px;
@@ -95,7 +106,6 @@ export default {
 }
 .bottom-item a {
   padding-left: 4vw;
-  text-decoration: none;
 }
 .nav {
   display: flex;
@@ -104,10 +114,6 @@ export default {
 .nav li {
   margin: 0;
   padding: 0 1rem;
-}
-.nav li a,
-.title a {
-  text-decoration: none;
 }
 .toggler {
   cursor: pointer;
