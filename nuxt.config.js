@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Espècies de papallones diurnes que podem trobar a Barcelona, i dades sobre la seva distribució en els parcs de la ciutat' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
