@@ -54,7 +54,7 @@ export default {
   name: 'TheHeader',
   data () {
     return {
-      mobileMenu: true
+      mobileMenu: false
     }
   },
   methods: {
