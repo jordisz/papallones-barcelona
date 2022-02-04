@@ -7,7 +7,7 @@
         </nuxt-link>
       </li>
       <li class="list-item">
-        <nuxt-link to="/">
+        <nuxt-link to="/preguntes-frequents">
           Quina informació ens aporta el seguiment de les poblacions de papallones?
         </nuxt-link>
       </li>
