@@ -18,7 +18,7 @@
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="#">
+          <NuxtLink to="preguntes-frequents">
             Preguntes freqüents
           </NuxtLink>
         </li>
@@ -40,7 +40,7 @@
           </NuxtLink>
         </li>
         <li class="bottom-item">
-          <NuxtLink to="#" @click.native="toggleMenu">
+          <NuxtLink to="/preguntes-frequents" @click.native="toggleMenu">
             Preguntes freqüents
           </NuxtLink>
         </li>
