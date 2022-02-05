@@ -378,7 +378,7 @@
         "envergadura": 45,
         "SSI": 0.938,
         "TAO": 0.606,
-        "text1": "Espècie migradora que podem trobar de febrer a octubre, tot i que es va fent més abundant a mida que avança la temporada. A la primavera arriben exemplars del nord d'Àfrica i del sud peninsular, i a la tardor en tornen a passar, aquest cop en direcció sud. Prefereixen ambients secs i oberts, però és possible que aparegui a qualsevol parc, especialment cap al final de la temporada."
+        "text1": "Espècie migradora que podem trobar de febrer a octubre, tot i que es va fent més abundant a mida que avança la temporada.<br/>A la primavera arriben exemplars del nord d'Àfrica i del sud peninsular, i a la tardor en tornen a passar, aquest cop en direcció sud.</br>Prefereix ambients secs i oberts, però és possible trobar-la a qualsevol parc, especialment cap al final de la temporada."
     },
     {
         "id": 26,
@@ -393,7 +393,7 @@
         "envergadura": 26,
         "SSI": 0.728,
         "TAO": 0.385,
-        "text1": "Petita papallona que viu en multitud d'ambients, tot i que prefereix zones càlides i assolellades. A nivell europeu ha patit fortes regressions poblacionals i es considera gairebé amenaçada. Pon els ous sobre diferents gramínies, i el seu període de vol es concentra als mesos de maig i juny."
+        "text1": "Petita papallona que viu en multitud d'ambients, tot i que prefereix zones càlides i assolellades.<br/>A nivell europeu ha patit fortes regressions poblacionals i es considera gairebé amenaçada.</br>Pon els ous sobre diferents gramínies, i el seu període de vol es concentra als mesos de maig i juny."
     },
     {
         "id": 7,
@@ -408,7 +408,7 @@
         "envergadura": 30,
         "SSI": 1.004,
         "TAO": 0.627,
-        "text1": "Una de les espècies més comunes de Catalunya, habitual de zones ruderals i parcs urbans on hi creix la seva planta nutrícia principal, la malva. La seva mida petita la fa passar sovint desapercebuda, però no és difícil veure'n algun exemplar a prop de les malves. La podem trobar des de març fins a octubre, en diferents generacions."
+        "text1": "Una de les espècies més comunes de Catalunya, habitual de zones ruderals i de parcs urbans on hi creix la seva planta nutrícia principal, la malva.</br>La seva mida petita la fa passar sovint desapercebuda, però no és difícil veure'n algun exemplar a prop de les malves.</br>La podem trobar des de març fins a octubre, en diferents generacions."
     },
     {
         "id": 58,
@@ -423,7 +423,7 @@
         "envergadura": 39,
         "SSI": 1.171,
         "TAO": 0.183,
-        "text1": "Papallona lligada a la presència de lledoners. La podem veure volar ja al febrer, doncs hiberna en forma d'adult. A la primera meitat de la primavera es reprodueix i pon els ous. Cap al maig-juny emergeixen les noves papallones, que amb l'arribada de la calor van entrant en diapausa fins l'any següent."
+        "text1": "Papallona lligada a la presència de lledoners.<br/>La podem veure volar ja al febrer, doncs hiberna en forma d'adult.<br/>A la primera meitat de la primavera es reprodueix i pon els ous. Cap al maig-juny emergeixen les noves papallones, que amb l'arribada de la calor van entrant en diapausa fins l'any següent."
     },
     {
         "id": 911,
@@ -435,7 +435,7 @@
         "imatge": "pyronia-small.png",
         "imgL": "no-image.jpg",
         "determinada": false,
-        "text1": "A Barcelona hi trobem dues espècies del gènere Pyronia. Als mesos d'abril i maig la més abundant és la saltabardisses cintada, i a partir del maig la saltabardisses de solell. En vol són difícils de distingir l'una de l'altra."
+        "text1": "A Barcelona hi trobem dues espècies del gènere <em>Pyronia</em>.<br/>Als mesos d'abril i maig la més abundant és la <a href='/especies/90'>saltabardisses cintada</a>, i a partir del maig la <a href='/especies/88'>saltabardisses de solell</a>.<br/>En vol són difícils de distingir l'una de l'altra."
     },
     {
         "id": 150,
@@ -450,7 +450,7 @@
         "envergadura": 33,
         "SSI": 1.114,
         "TAO": -0.296,
-        "text1": "Espècie molt comuna a rouredes i alzinars, tot i que difícil de detectar, perquè acostuma a trobar-se a les capçades dels arbres, d'on només baixa per a libar sals del fang o per a refrescar-se quan fa molta calor. Només fa una generació anual, que vola des de finals de primavera fins a l'octubre."
+        "text1": "Espècie molt comuna a rouredes i alzinars, tot i que difícil de detectar, perquè acostuma a trobar-se a les capçades dels arbres, d'on només baixa per a libar sals del fang o per a refrescar-se quan fa molta calor.<br/>Només fa una generació anual, que vola des de finals de primavera fins l'octubre."
     },
     {
         "id": 44,
@@ -465,7 +465,7 @@
         "envergadura": 46,
         "SSI": 1.013,
         "TAO": 0.046,
-        "text1": "Espècie típica d'ambients humits, com boscos de ribera o regadius. Per aquest motiu és molt rara als parcs de Barcelona. La feromona que produeixen els mascles per a atraure les femelles fa olor de llimona. Vola tota la temporada, en diferents generacions solapades."
+        "text1": "Espècie típica d'ambients humits, com boscos de ribera o regadius. Per aquest motiu és molt rara als parcs de Barcelona.<br/>La feromona que produeixen els mascles per a atraure les femelles fa olor de llimona.<br/>Vola tota la temporada, en diferents generacions solapades."
     },
     {
         "id": 85,
@@ -480,7 +480,7 @@
         "envergadura": 45,
         "SSI": 0.786,
         "TAO": 0.245,
-        "text1": "Papallona força comuna a Catalunya. Prefereix prats i zones obertes, per la qual cosa no és molt habitual als parcs barcelonins. Els adults comencen a volar entre maig i juny. Els mesos més càlids de juliol i agost els passen en estivació, reposant en zones de vegetació espessa, i a finals d'agost tornen a volar, fins la tardor. Les femelles ponen els ous sobre gran diversitat d'herbes."
+        "text1": "Papallona força comuna a Catalunya.<br/>Prefereix prats i zones obertes, per la qual cosa no és molt habitual als parcs barcelonins.<br/>Els adults comencen a volar entre maig i juny. Els mesos més càlids de juliol i agost els passen en estivació, reposant en zones de vegetació espessa, i a finals d'agost tornen a volar, fins la tardor.<br/>Les femelles ponen els ous sobre gran diversitat d'herbes."
     },
     {
         "id": 154,
@@ -495,7 +495,7 @@
         "envergadura": 31,
         "SSI": 0.876,
         "TAO": 0.223,
-        "text1": "Típica d'alzinars, és una de les papallones més comunes a Catalunya. Vola en una única generació des de maig fins a finals d'agost, i tot i que és una espècie forestal, no és difícil trobar-la en zones més obertes, on troben flors per a libar-ne nèctar."
+        "text1": "Típica d'alzinars, és una de les papallones més comunes a Catalunya.<br/>Vola en una única generació des de maig fins a finals d'agost, i tot i que és una espècie forestal, no és difícil veure-la en zones més obertes, on troba flors per a libar-ne nèctar."
     },
     {
         "id": 96,
@@ -510,7 +510,7 @@
         "envergadura": 70,
         "SSI": 0.860,
         "TAO": 0.432,
-        "text1": "Espècie força comuna a Catalunya, amb preferència per zones herboses amb presència d'arbres i arbusts. Les seves larves s'alimenten de diverses herbes. La podem veure volar a partir de començaments de juny fins a mitjans de juliol, moment en el que fa una pausa en la seva activitat fins a mitjans d'agost, quan torna a volar fins a l'octubre. Els mascles mostren un comportament territorial."
+        "text1": "Espècie força comuna a Catalunya, amb preferència per zones herboses amb presència d'arbres i arbusts.<br/>Les seves larves s'alimenten de diverses herbes.<br/>La podem veure volar a partir de començaments de juny fins a mitjans de juliol, moment en el que fa una pausa en la seva activitat fins a mitjans d'agost, quan torna a volar fins a l'octubre.<br/>Els mascles mostren un comportament territorial."
     },
     {
         "id": 500,
@@ -523,7 +523,7 @@
         "imgL": "c-perspectalis-1.jpg",
         "determinada": true,
         "envergadura": 42,
-        "text1": "Aquesta papallona nocturna és una espècie invasora d'origen asiàtic que des de l'any 2006 s'ha anat estenent per Europa. És una plaga que defolia el boix. El 2014 es va detectar per primer cop a Catalunya. Tot i que no és una espècie diürna, s'aprofiten els recomptes de l'uBMS per a fer un seguiment de la seva presència als parcs de la ciutat."
+        "text1": "Aquesta papallona nocturna és una espècie invasora d'origen asiàtic que des de l'any 2006 s'ha anat estenent per Europa.<br/>És una plaga que defolia el boix.<br/>El 2014 es va detectar per primer cop a Catalunya.<br/>Tot i que no és una espècie diürna, s'aprofiten els recomptes de l'uBMS per a fer un seguiment de la seva presència als parcs de la ciutat."
     },
     {
         "id": 47,
@@ -538,7 +538,7 @@
         "envergadura": 40,
         "SSI": 0.857,
         "TAO": -0.020,
-        "text1": "Espècie pròpia d'ambients humits, tot i que alguns exemplars poden arribar a aparèixer als parcs de Barcelona. Fa una sola generació, que vola de març a abril."
+        "text1": "Espècie pròpia d'ambients humits, tot i que alguns exemplars poden arribar a aparèixer als parcs de Barcelona.<br/>Fa una sola generació, que vola de març a abril."
     },
     {
         "id": 122,
@@ -553,7 +553,7 @@
         "envergadura": 60,
         "SSI": 1.435,
         "TAO": 0.014,
-        "text1": "Papallona típica dels boscos de ribera, on s'hi troben els salzes i els pollancres que fa servir com a planta nutrícia. Vola en dues generacions, la primera entre maig i juliol i la segona cap a finals d'agost-setembre. Els adults no s'alimenten de nèctar de flors, sinó que es nodreixen de fruita madura, exsudats d'arbres i excrements i cadàvers d'animals."
+        "text1": "Papallona típica dels boscos de ribera, on s'hi troben els salzes i els pollancres que fa servir com a planta nutrícia.<br/>Vola en dues generacions, la primera entre maig i juliol i la segona cap a finals d'agost-setembre.<br/>Els adults no s'alimenten de nèctar de flors, sinó que es nodreixen de fruita madura, exsudats d'arbres i excrements i cadàvers d'animals."
     },
     {
         "id": 912,
@@ -565,7 +565,7 @@
         "imatge": "satyridae-small.png",
         "imgL": "no-image.jpg",
         "determinada": false,
-        "text1": "Els satirins o satírids són una subfamília dels nimfàlids que comprèn un gran nombre d'espècies. A Barcelona hi trobem la margenera comuna, la bruna de bosc, la bruna de prat, la saltabardisses de solell, la saltabardisses cintada, l'escac ibèric, la bruixa, el faune bru, el faune de ziga-zaga i el faune lleonat. La majoria d'aquestes espècies són de mides i colors similars, la qual cosa en pot dificultar la determinació."
+        "text1": "Els satirins o satírids són una subfamília dels nimfàlids que comprèn un gran nombre d'espècies.<br/>A Barcelona hi trobem la <a href='/especies/60'>margenera comuna</a>, la <a href='/especies/63'>bruna de bosc</a>, la <a href='/especies/85'>bruna de prat</a>, la <a href='/especies/88'>saltabardisses de solell</a>, la <a href='/especies/90'>saltabardisses cintada</a>, l'<a href='/especies/91'>escac ibèric</a>, la <a href='/especies/96'>bruixa</a>, el <a href='/especies/100'>faune bru</a>, el <a href='/especies/101'>faune de ziga-zaga</a> i el <a href='/especies/102'>faune lleonat</a>.<br/>La majoria d'aquestes espècies són de mides i colors similars, la qual cosa en pot dificultar la determinació."
     },
     {
         "id": 13,
@@ -580,7 +580,7 @@
         "envergadura": 25,
         "SSI": 0.891,
         "TAO": 0.553,
-        "text1": "Petita papallona que podem trobar en prats i clarianes. Les seves larves s'alimenten de diverses plantes, com l'esbarzer, la maduixera o el gram negre. Vola en dues generacions, la primera entre març i maig, i la segona entre agost i setembre."
+        "text1": "Petita papallona que podem trobar en prats i clarianes.<br/>Les seves larves s'alimenten de diverses plantes, com l'esbarzer, la maduixera o el gram negre.<br/>Vola en dues generacions, la primera entre març i maig, i la segona entre agost i setembre."
     },
     {
         "id": 57,
@@ -595,7 +595,7 @@
         "envergadura": 80,
         "SSI": 3.107,
         "TAO": 0.627,
-        "text1": "Papallona típica de zones d'aiguamolls, és habitual trobar-la al delta del Llobregat, pel que puntualment se'n poden arribar a veure exemplars als parcs barcelonins més propers al mar. És una espècie migradora que no sobreviu a l'hivern barceloní. Els primers migrants arriben del sud cap al juny, i s'estableixen aquí produint dues o tres generacions i arribant a ser força abundants cap al final de l'estiu."
+        "text1": "Papallona típica de zones d'aiguamolls, és habitual trobar-la al delta del Llobregat, i puntualment se'n poden arribar a veure exemplars als parcs barcelonins més propers al mar.<br/>És una espècie migradora que no sobreviu a l'hivern barceloní.<br/>Els primers migrants arriben del sud cap al juny, i s'estableixen aquí produint dues o tres generacions i arribant a ser força abundants cap al final de l'estiu."
     },
     {
         "id": 91,
@@ -610,7 +610,7 @@
         "envergadura": 53,
         "SSI": 0.990,
         "TAO": 0.456,
-        "text1": "Papallona molt comuna a Catalunya, típica de prats i conreus, preferint zones amb herba alta. Cap a la costa i en ambients humanitzats esdevé més escassa. Vola entre el maig i el juny."
+        "text1": "Papallona molt comuna a Catalunya, típica de prats i conreus, preferint zones amb herba alta.<br/>Cap a la costa i en ambients humanitzats esdevé més escassa.<br/>Vola entre el maig i el juny."
     },
     {
         "id": 131,
@@ -625,7 +625,7 @@
         "envergadura": 45,
         "SSI": 0.920,
         "TAO": -0.039,
-        "text1": "Espècie típica de boscos de caducifolis i de ribera. Vola des de febrer-març fins a l'octubre, en tres generacions diferents. Les seves erugues s'alimenten de plantes com l'ortiga, l'om o el gatell. Els mascles tenen un comportament territorial."
+        "text1": "Espècie típica de boscos de caducifolis i de ribera.<br/>Vola des de febrer-març fins a l'octubre, en tres generacions diferents.<br/>Les seves erugues s'alimenten de plantes com l'ortiga, l'om o el gatell.<br/>Els mascles tenen un comportament territorial."
     },
     {
         "id": 101,
@@ -640,7 +640,7 @@
         "envergadura": 52,
         "SSI": 1.073,
         "TAO": 0.203,
-        "text1": "Papallona que prefereix llocs secs i assolellats. La podem veure volar a partir de mitjans de juny, en una única generació que s'allarga fins a finals de setembre. Els mascles són territorials. Pel seu aspecte i comportament, és molt fàcil de confondre amb el faune bru."
+        "text1": "Papallona que prefereix llocs secs i assolellats.<br/>La podem veure volar a partir de mitjans de juny, en una única generació que s'allarga fins a finals de setembre.<br/>Els mascles són territorials.<br/>Pel seu aspecte i comportament, és molt fàcil de confondre amb el <a href='/especies/100'>faune bru</a>."
     },
     {
         "id": 100,
@@ -655,7 +655,7 @@
         "envergadura": 52,
         "SSI": 0.975,
         "TAO": 0.316,
-        "text1": "Papallona que prefereix llocs oberts, secs i assolellats. La podem veure volar a partir de mitjans de juny, en una única generació que s'allarga fins a finals de setembre. Els mascles són territorials. Pel seu aspecte i comportament, és fàcil de confondre amb el faune de ziga-zaga."
+        "text1": "Papallona que prefereix llocs oberts, secs i assolellats.<br/>La podem veure volar a partir de mitjans de juny, en una única generació que s'allarga fins a finals de setembre.<br/>Els mascles són territorials.<br/>Pel seu aspecte i comportament, és fàcil de confondre amb el <a href='/especies/101'>faune de ziga-zaga</a>."
     },
     {
         "id": 913,
@@ -667,7 +667,7 @@
         "imatge": "pyrgus-small.png",
         "imgL": "no-image.jpg",
         "determinada": false,
-        "text1": "A Catalunya hi viuen una desena d'espècies de merlets (gènere Pyrgus), tot i que la majoria en hàbitats de muntanya. A la zona de Barcelona és probable que només hi voli el merlet comú, tot i que no es pot descartar trobar-hi algun exemplar de merlet ruderal. Són papallones molt petites i de difícil determinació. El merlet comú és més fosc i contrastat, i el seu revers és més vermellós que el del merlet ruderal."
+        "text1": "A Catalunya hi viuen una desena d'espècies de merlets (gènere <em>Pyrgus</em>), tot i que la majoria en hàbitats de muntanya.<br/>A la zona de Barcelona és probable que només hi voli el merlet comú, tot i que no es pot descartar trobar-hi algun exemplar de merlet ruderal.<br/>Són papallones molt petites i de difícil determinació.<br/>El merlet comú és més fosc i contrastat, i el seu revers és més vermellós que el del merlet ruderal."
     },
     {
         "id": 29,
@@ -682,7 +682,7 @@
         "envergadura": 30,
         "SSI": 0.707,
         "TAO": 0.280,
-        "text1": "Petita papallona que acostumem a trobar en zones humides i boscoses. Vola en dues generacions, una entre finals d'abril i juny, i una altra entre agost i octubre. Els mascles tenen comportament territorial, i acostumen a posar-se sobre branques d'arbustos o herbes altes que defensen davant la presència d'altres mascles."
+        "text1": "Petita papallona que acostumem a trobar en zones humides i boscoses.<br/>Vola en dues generacions, una entre finals d'abril i juny, i una altra entre agost i octubre.<br/>Els mascles tenen comportament territorial, i acostumen a posar-se sobre branques d'arbustos o herbes altes que defensen davant la presència d'altres mascles."
     },
     {
         "id": 102,
@@ -697,7 +697,7 @@
         "envergadura": 54,
         "SSI": 0.888,
         "TAO": 0.246,
-        "text1": "Espècie força comuna, que pot ocupar diferents tipus d'hàbitat, entre els quals les zones obertes i clarianes de bosc. Acostuma a aturar-se als troncs dels arbres, i els mascles presenten comportament territorial. Vola en una única generació, des de finals de maig fins la tardor."
+        "text1": "Espècie força comuna, que pot ocupar diferents tipus d'hàbitat, entre els quals les zones obertes i clarianes de bosc.<br/>Acostuma a aturar-se als troncs dels arbres, i els mascles presenten comportament territorial.<br/>Vola en una única generació, des de finals de maig fins la tardor."
     },
     {
         "id": 914,
@@ -724,6 +724,6 @@
         "envergadura": 40,
         "SSI": 0.968,
         "TAO": 0.236,
-        "text1": "Papallona que prefereix hàbitats oberts en màquies o a la vora d'alzinars. Vola en una única generació cap al maig-juny. Al litoral i prelitoral catalans la seva planta nutrícia són els lligaboscs."
+        "text1": "Papallona que prefereix hàbitats oberts en màquies o a la vora d'alzinars.<br/>Vola en una única generació cap al maig-juny.<br/>Al litoral i prelitoral catalans la seva planta nutrícia són els lligaboscs."
     }
 ]
