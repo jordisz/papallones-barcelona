@@ -20,9 +20,7 @@
     <div class="image-text-container">
       <img class="img-large" :src="require(`~/assets/species-page-images/${ info.imgL }`)" alt="">
       <div class="text-wrapper">
-        <p class="info-text">
-          {{ info.text1 }}
-        </p>
+        <p class="info-text" v-html="info.text1"></p>
       </div>
     </div>
     <ul v-if="isDataReady" class="llista-parcs">
@@ -151,7 +149,7 @@ ul {
 }
 
 .info-text {
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   font-size: 1.1rem;
 }
 
