@@ -12,7 +12,7 @@
         "envergadura": 44,
         "SSI": 0.707,
         "TAO": 0.280,
-        "text1": "La papallona més abundant a la ciutat. Les seves larves s'alimenten de brassicàcies com les cols, el nap o el rave, la qual cosa fa que sigui una espècie molt habitual en ambients humanitzats. Originària d'Europa, Àsia i el Nord d'Àfrica, la seva relació amb els conreus humans l'ha fet arribar també a Amèrica i Austràlia, on és una plaga. La podem veure al llarg de tot l'any, ja que fa diverses generacions que es van solapant."
+        "text1": "La papallona més abundant a la nostra ciutat.<br/>Les seves larves s'alimenten de brassicàcies com les cols, el nap o el rave, la qual cosa fa que sigui una espècie molt habitual en ambients humanitzats.<br/>Originària d'Europa, Àsia i el nord d'Àfrica, la seva relació amb els conreus humans l'ha fet arribar també a Amèrica i Austràlia, on és una plaga.<br/>La podem veure al llarg de tot l'any, ja que fa diverses generacions que es van solapant."
     },
     {
         "id": 63,
@@ -27,7 +27,7 @@
         "envergadura": 40,
         "SSI": 1.007,
         "TAO": -0.416,
-        "text1": "Una de les papallones més comunes a Catalunya. Prefereix ambients forestals i humits, pel que és fàcil veure-la en molts dels parcs de la ciutat. N'és fàcil d'observar el comportament territorial dels mascles, que es posen en clapes de sol en llocs ombrejats, defensant-les quan arriba un altre mascle en una mena de combat aeri. Vola pràcticament durant tot l'any en generacions solapades."
+        "text1": "Una de les papallones més comunes a Catalunya.<br/>Prefereix ambients forestals i humits, així que és fàcil veure-la en molts dels parcs de la ciutat.<br/>És fàcil observar-ne el comportament territorial dels mascles, que es posen en clapes de sol en llocs ombrejats, defensant-les quan arriba un altre mascle en una mena de combat aeri.<br/>Vola pràcticament durant tot l'any en generacions solapades."
     },
     {
         "id": 60,
@@ -42,7 +42,7 @@
         "envergadura": 42,
         "SSI": 0.460,
         "TAO": 0.119,
-        "text1": "Una de les papallones més comunes de Catalunya. Molt abundant en ambients oberts i pedregosos com la vessant barcelonina de Collserola, on és fàcil trobar-la en pistes i camins. Els mascles defensen territoris en llocs prominents i cims de turons. Les larves s'alimenten de diverses gramínies. La podem veure volar gairebé tot l'any, amb tres pics d'abundància cap al març-abril, al juny-juliol i a finals d'agost-setembre."
+        "text1": "Una de les papallones més comunes de Catalunya.<br/>Molt abundant en ambients oberts i pedregosos com la vessant barcelonina de Collserola, on és fàcil trobar-la en pistes i camins.<br/>Els mascles defensen territoris en llocs prominents i als cims dels turons.<br/>Les larves s'alimenten de diverses gramínies.<br/>La podem veure volar gairebé tot l'any, amb tres pics d'abundància cap al març-abril, al juny-juliol i a finals d'agost-setembre."
     },
     {
         "id": 909,
@@ -54,7 +54,7 @@
         "imatge": "pieris-small.png",
         "imgL": "no-image.jpg",
         "determinada": false,
-        "text1": "A Barcelona hi tenim tres espècies del gènere Pieris: la blanqueta de la col, que és la més comuna, la blanca de la col i la blanqueta perfumada. En vol són difícils de diferenciar, ja que ens hem de fixar en detalls com les taques negres de l'àpex de les ales anteriors. Això fa que s'anotin moltes observacions de blanques/blanquetes de les que no se n'ha pogut concretar l'espècie."
+        "text1": "A Barcelona hi tenim tres espècies del gènere <em>Pieris</em>: la <a href='/especies/41'>blanqueta de la col</a>, que és la més comuna, la <a href='/especies/40'>blanca de la col</a> i la <a href='/especies/44'>blanqueta perfumada</a>.<br/>En vol són difícils de diferenciar, ja que ens hem de fixar en detalls com les taques negres de l'àpex de les ales anteriors.<br/>Això fa que s'anotin moltes observacions de blanques/blanquetes de les que no se n'ha pogut concretar l'espècie."
     },
     {
         "id": 199,
@@ -69,7 +69,7 @@
         "envergadura": 33,
         "SSI": 0.849,
         "TAO": 0.595,
-        "text1": "La blaveta comuna és molt abundant en ambients humanitzats com conreus herbacis i parcs urbans, sobretot en els que tenen zones obertes amb gespa. Les seves larves s'alimenten de les flors i fulles de diverses fabàcies com els lotus, l'alfals i els trèvols. Podem trobar-ne exemplars durant tota la temporada, tot i que és molt més abundant a partir del maig."
+        "text1": "La blaveta comuna és molt abundant en ambients humanitzats com conreus herbacis i parcs urbans, sobretot en els que tenen zones obertes amb gespa.<br/>Les seves larves s'alimenten de les flors i fulles de diverses fabàcies com els lotus, l'alfals i els trèvols.<br/>Podem trobar-ne exemplars durant tota la temporada, tot i que és molt més abundant a partir del maig."
     },
     {
         "id": 3,
@@ -84,7 +84,7 @@
         "envergadura": 78,
         "SSI": 0.628,
         "TAO": 0.515,
-        "text1": "La reina de la ruda, macaó o senzillament reina, és una de les papallones més espectaculars de la nostra fauna. És una espècie molt generalista, capaç d'ocupar hàbitats molt diversos. Els mascles defensen territoris als cims dels turons, on podem observar-los mantenint espectaculars combats aeris. Les femelles ponen els ous en plantes com el fonoll, la pastanaga i la ruda. La podem trobar des del febrer fins l'octubre, amb un pic d'abundància cap al juny."
+        "text1": "La reina de la ruda, macaó o senzillament reina, és una de les papallones més espectaculars de la nostra fauna.<br/>És una espècie molt generalista, capaç d'ocupar hàbitats molt diversos.<br/>Els mascles defensen territoris als cims dels turons, on podem observar-los mantenint espectaculars combats aeris.<br/>Les femelles ponen els ous sobre plantes com el fonoll, la pastanaga i la ruda.<br/>La podem trobar des del febrer fins l'octubre, amb un pic d'abundància cap al juny."
     },
     {
         "id": 124,
@@ -99,7 +99,7 @@
         "envergadura": 60,
         "SSI": 0.489,
         "TAO": 0.132,
-        "text1": "Papallona migradora i molt generalista. A Barcelona és més abundant cap a finals de setembre-octubre, quan hi arriben els exemplars del centre i Nord d'Europa buscant un clima més suau. En canvi, als mesos més càlids de l'estiu és menys abundant, ja que en aquesta època la migració s'ha produit en el sentit contrari. Les femelles ponen els ous sobre l'ortiga."
+        "text1": "Papallona migradora i molt generalista.<br/>A Barcelona és més abundant cap a finals de setembre-octubre, quan hi arriben els exemplars del centre i nord d'Europa buscant un clima més suau.<br/>En canvi, als mesos més càlids de l'estiu és menys abundant, ja que en aquesta època la migració s'ha produit en el sentit contrari.<br/>Les femelles ponen els ous sobre l'ortiga."
     },
     {
         "id": 160,
@@ -114,7 +114,7 @@
         "envergadura": 19,
         "SSI": 1.581,
         "TAO": 0.484,
-        "text1": "Petita papallona no autòctona de Catalunya, on hi va arribar a finals de la dècada dels 90. Lligada als geranis ornamentals, dels que s'alimenten les seves larves, és una espècie molt habitual a la ciutat, on en podem veure exemplars tot l'any, tot i que l'abundància n'augmenta cap a l'estiu."
+        "text1": "Petita papallona no autòctona de Catalunya, on hi va arribar a finals de la dècada dels 90.<br/>Lligada als geranis ornamentals, dels que s'alimenten les seves larves, és una espècie molt habitual a la ciutat, on en podem veure exemplars tot l'any, tot i que l'abundància n'augmenta cap a l'estiu."
     },
     {
         "id": 161,
@@ -129,7 +129,7 @@
         "envergadura": 29,
         "SSI": 0.877,
         "TAO": 0.499,
-        "text1": "Papallona migradora que podem trobar als parcs, especialment en ambients oberts, sobretot a partir de finals de primavera, quan arriben exemplars provinents del Nord d'Àfrica i el Sud de la península. Durant els primers mesos de la temporada és molt més rara, ja que és una espècie que no tolera bé el fred de l'hivern. Les seves larves s'alimenten de diverses fabàcies com l'alfals, la pesolera, la ginesta o la gatosa."
+        "text1": "Papallona migradora que podem trobar als parcs &mdash;especialment en ambients oberts&mdash; sobretot a partir de finals de primavera, quan arriben exemplars provinents del nord d'Àfrica i del sud de la península.<br/>Durant els primers mesos de la temporada és molt més rara, ja que és una espècie que no tolera bé el fred de l'hivern.<br/>Les seves larves s'alimenten de diverses fabàcies com l'alfals, la pesolera, la ginesta o la gatosa."
     },
     {
         "id": 2,
@@ -144,7 +144,7 @@
         "envergadura": 70,
         "SSI": 0.650,
         "TAO": 0.437,
-        "text1": "Espècie molt comuna, lligada a arbres i arbustos com el cirerer, el presseguer, la prunera o l'aranyoner. Els mascles presenten comportament territorial, defensant el seu espai al cim dels turons. Podem veure'n volar els primers exemplars ja al febrer, tot i que les generacions més abundants són les de l'estiu."
+        "text1": "Espècie molt comuna, lligada a arbres i arbustos com el cirerer, el presseguer, la prunera o l'aranyoner.<br/>Els mascles presenten comportament territorial, defensant el seu espai al cim dels turons.<br/>Podem veure'n volar els primers exemplars ja al febrer, tot i que les generacions més abundants són les de l'estiu."
     },
     {
         "id": 162,
@@ -159,7 +159,7 @@
         "envergadura": 26,
         "SSI": 1.205,
         "TAO": 0.495,
-        "text1": "Papallona migradora que esdevé abundant als parcs de Barcelona especialment a partir del mes d'agost. Alguns exemplars sobreviuen l'hivern i els podem trobar a començament de temporada, però la majoria d'observacions són posteriors a la primavera, quan arriben els migrants del Nord d'Àfrica i del Sud peninsular. Les seves larves es poden alimentar de plantes força comunes, com el trèvol, l'alfals o el romaní."
+        "text1": "Papallona migradora que esdevé abundant als parcs de Barcelona especialment a partir del mes d'agost.<br/>Alguns exemplars sobreviuen l'hivern i els podem trobar a començament de temporada, però la majoria d'observacions són posteriors a la primavera, quan arriben els migrants del nord d'Àfrica i del sud peninsular.<br/>Les seves larves es poden alimentar de plantes força comunes, com el trèvol, l'alfals o el romaní."
     },
     {
         "id": 35,
@@ -174,7 +174,7 @@
         "envergadura": 60,
         "SSI": 0.494,
         "TAO": 0.155,
-        "text1": "La cleòpatra és una de les papallones que viu més temps com a adulta. Els adults emergeixen cap al maig-juny. A l'estiu migren cap a zones més fresques, on s'alimenten preparant-se per a passar l'hivern en diapausa. Al febrer tornen a l'activitat, fent vols nupcials en els que el mascle persegueix la femella, i es reprodueixen, ponent sobre l'aladern i l'arçot els ous de la següent generació."
+        "text1": "La cleòpatra és una de les papallones que viu més temps com a adulta.<br/>Els adults emergeixen cap al maig-juny. A l'estiu migren cap a zones més fresques, on s'alimenten preparant-se per a passar l'hivern en diapausa. Al febrer tornen a l'activitat, fent vols nupcials en els que el mascle persegueix la femella, i es reprodueixen, ponent sobre l'aladern i l'arçot els ous de la següent generació."
     },
     {
         "id": 125,
@@ -189,7 +189,7 @@
         "envergadura": 62,
         "SSI": 0.815,
         "TAO": 0.535,
-        "text1": "La migradora dels cards protagonitza una llarga migració, en diferents generacions, entre l'Àfrica subsahariana, on hi passa l'hivern, i el centre i Nord d'Europa a l'estiu. A Barcelona hi arriba cap a la primavera, i pon els ous dels exemplars que a l'estiu volaran cap al Nord. Cap a finals d'agost-setembre en tornen a passar, aquest cop cap al Sud. Les larves s'alimenten de malva i de cards."
+        "text1": "La migradora dels cards protagonitza una llarga migració, en diferents generacions, entre l'Àfrica subsahariana, on hi passa l'hivern, i el centre i nord d'Europa a l'estiu.<br/>A Barcelona hi arriba cap a la primavera, i pon els ous dels exemplars que a l'estiu volaran cap al nord. Cap a finals d'agost-setembre en tornen a passar, aquest cop cap al sud.<br/>Les larves s'alimenten de malva i de cards."
     },
     {
         "id": 40,
@@ -204,7 +204,7 @@
         "envergadura": 58,
         "SSI": 0.805,
         "TAO": 0.232,
-        "text1": "Papallona generalista, lligada a conreus com el rave, el nap o la col, de la que en pot arribar a ser una plaga. A Barcelona sembla ser menys abundant que la blanqueta de la col, i a l'igual que aquesta altra espècie, la podem veure volar durant tota la temporada, amb pics d'abundància que coincideixen amb moviments migratoris cap a finals de primavera i cap a començaments de setembre. Els mesos càlids de l'estiu és menys abundant."
+        "text1": "Papallona generalista, lligada a conreus com el rave, el nap o la col, de la que en pot arribar a ser una plaga.<br/>A Barcelona sembla ser menys abundant que la <a href='/especies/41'>blanqueta de la col</a>, i a l'igual que aquesta altra espècie, la podem veure volar durant tota la temporada, amb pics d'abundància que coincideixen amb moviments migratoris cap a finals de primavera i cap a començaments de setembre.<br/>Els mesos càlids de l'estiu és menys abundant."
     },
     {
         "id": 36,
@@ -219,7 +219,7 @@
         "envergadura": 46,
         "SSI": 0.687,
         "TAO": 0.597,
-        "text1": "Una de les papallones més comunes de Catalunya, habitual als conreus i a zones ruderals, on s'hi troben les seves plantes nutrícies, com l'alfals, el trèvol i la banya de cabra. Si l'hivern és suau, en podem veure volar durant tot l'any, en generacions successives. És una espècie migradora, pel que a la primavera la població de Barcelona es veu reforçada amb l'arribada d'exemplars del sud de la península i del Nord d'Àfrica, i a la tardor amb papallones procedents del centre d'Europa."
+        "text1": "Una de les papallones més comunes de Catalunya, habitual als conreus i a zones ruderals, on s'hi troben les seves plantes nutrícies, com l'alfals, el trèvol i la banya de cabra.<br/>Si l'hivern és suau, en podem veure volar durant tot l'any, en generacions successives.<br/>És una espècie migradora. A la primavera la població de Barcelona es veu reforçada amb l'arribada d'exemplars del sud de la península i del nord d'Àfrica, i a la tardor amb papallones procedents del centre d'Europa."
     },
     {
         "id": 88,
@@ -234,7 +234,7 @@
         "envergadura": 35,
         "SSI": 0.811,
         "TAO": 0.489,
-        "text1": "Espècie mediterrània, pròpia de zones obertes i seques, de manera que només la trobem en parcs propers a Collserola i als turons del Carmel i de la Rovira. Fa una única generació entre juny i agost, tot i que les femelles poden arribar a viure fins el setembre."
+        "text1": "Espècie mediterrània, pròpia de zones obertes i seques, de manera que només la trobem en parcs propers a Collserola i als turons del Carmel i de la Rovira.<br/>Fa una única generació entre juny i agost, tot i que les femelles poden arribar a viure fins el setembre."
     },
     {
         "id": 51,
@@ -249,7 +249,7 @@
         "envergadura": 42,
         "SSI": 1.333,
         "TAO": 0.600,
-        "text1": "Papallona comuna, habitual d'ambients agrícoles. Les seves larves s'alimenten de gran varietat de crucíferes. Fa dues generacions, una a finals d'hivern i l'altra al maig-juny, que pot ser més o menys abundant en funció de les pluges primaverals."
+        "text1": "Papallona comuna, habitual d'ambients agrícoles.<br/>Les seves larves s'alimenten de gran varietat de crucíferes.<br/>Fa dues generacions, una a finals d'hivern i l'altra al maig-juny, que pot ser més o menys abundant en funció de les pluges primaverals."
     },
     {
         "id": 59,
@@ -264,7 +264,7 @@
         "envergadura": 72,
         "SSI": 0.958,
         "TAO": 0.213,
-        "text1": "Espectacular papallona pròpia de boscos i màquies mediterranis. Vola en dues generacions, la primera al maig-juny i la segona cap a l'agost-octubre. Els mascles defensen territoris al capdamunt de turons. Les seves larves s'alimenten de les fulles d'arboç, mentre que els adults no acostumen a libar nèctar de les flors, sinò que es nodreixen de fruita madura, exsudats d'arbres i excrements de mamífers."
+        "text1": "Espectacular papallona pròpia de boscos i màquies mediterranis.<br/>Vola en dues generacions, la primera al maig-juny i la segona cap a l'agost-octubre.<br/>Els mascles defensen territoris al capdamunt de turons.<br/>Les seves larves s'alimenten de les fulles d'arboç, mentre que els adults no acostumen a libar nèctar de les flors, sinò que es nodreixen de fruita madura, exsudats d'arbres i excrements de mamífers."
     },
     {
         "id": 172,
@@ -279,7 +279,7 @@
         "envergadura": 30,
         "SSI": 0.755,
         "TAO": 0.062,
-        "text1": "Papallona molt comuna a Catalunya, pròpia d'ambients ombrívols i humits. Fa tres generacions al llarg de l'any. Les seves larves es poden nodrir de diferents plantes comunes, com l'esbarzer, l'heura, l'alfals o l'arboç. És una espècie molt mòbil que s'estableix arreu amb molta facilitat."
+        "text1": "Papallona molt comuna a Catalunya, pròpia d'ambients ombrívols i humits.<br/>Fa tres generacions al llarg de l'any.<br/>Les seves larves es poden nodrir de diferents plantes comunes, com l'esbarzer, l'heura, l'alfals o l'arboç.<br/>És una espècie molt mòbil que s'estableix arreu amb molta facilitat."
     },
     {
         "id": 34,
@@ -294,7 +294,7 @@
         "envergadura": 60,
         "SSI": 0.600,
         "TAO": 0.065,
-        "text1": "Papallona amb preferència pels ambients forestals, però amb una gran mobilitat que fa que se'n puguin veure exemplars volant en altres tipus d'hàbitat. Com en el cas de la cleòpatra, fa una única generació que vola a partir del maig, hiberna, i es reprodueix a l'inici de la següent primavera."
+        "text1": "Papallona amb preferència pels ambients forestals, però amb una gran mobilitat que fa que se'n puguin veure exemplars volant en altres tipus d'hàbitat.<br/>Com en el cas de la <a href='/especies/35'>cleòpatra</a>, fa una única generació que vola a partir del maig, hiberna, i es reprodueix a l'inici de la següent primavera."
     },
     {
         "id": 180,
@@ -309,7 +309,7 @@
         "envergadura": 28,
         "SSI": 0.873,
         "TAO": 0.497,
-        "text1": "Papallona mediterrània pròpia de prats i clarianes forestals. Vola des de març a octubre en diferents generacions, tot i que als parcs de Barcelona s'ha detectat principalment a l'estiu. Les erugues disposen d'una glàndula que secreta una substància ensucrada molt atractiva per a algunes espècies de formigues, que les transporten al seu formiguer, on queden protegides."
+        "text1": "Papallona mediterrània pròpia de prats i clarianes forestals.<br/>Vola des de març a octubre en diferents generacions, tot i que als parcs de Barcelona s'ha detectat principalment a l'estiu.<br/>Les erugues disposen d'una glàndula que secreta una substància ensucrada molt atractiva per a algunes espècies de formigues, que les transporten al seu formiguer, on queden protegides."
     },
     {
         "id": 906,
@@ -321,7 +321,7 @@
         "imatge": "lycaenidae-small.png",
         "imgL": "no-image.jpg",
         "determinada": false,
-        "text1": "Els licènids (Lycaenidae) són una família amb espècies molt comunes, de mida petita i vol ràpid i erràtic. Això fa que en alguns casos els observadors no les puguin identificar amb certesa. Als parcs de Barcelona se n'han observat nou espècies diferents (blaveta comuna, barrinadora del gerani, blaveta dels pèsols, blaveta estriada, blaveta de l'heura, moreneta meridional, coure comú, morada, marroneta de l'alzina), i hi ha altres espècies, com la verdeta d'ull blanc o la griseta mediterrània, que per la proximitat amb Collserola hi podrien acabar apareixent."
+        "text1": "Els licènids (<em>Lycaenidae</em>) són una família amb espècies molt comunes, de mida petita i vol ràpid i erràtic.<br/>Això fa que en alguns casos els observadors no les puguin identificar amb certesa.<br/>Als parcs de Barcelona se n'han observat nou espècies diferents (<a href='/especies/199'>blaveta comuna</a>, <a href='/especies/160'>barrinadora del gerani</a>, <a href='/especies/161'>blaveta dels pèsols</a>, <a href='/especies/162'>blaveta estriada</a>, <a href='/especies/172'>blaveta de l'heura</a>, <a href='/especies/180'>moreneta meridional</a>, <a href='/especies/145'>coure comú</a>, <a href='/especies/150'>morada</a>, <a href='/especies/154'>marroneta de l'alzina</a>), i hi ha altres espècies, com la verdeta d'ull blanc o la griseta mediterrània, que per la proximitat amb Collserola hi podrien acabar apareixent."
     },
     {
         "id": 145,
@@ -336,7 +336,7 @@
         "envergadura": 27,
         "SSI": 0.717,
         "TAO": 0.517,
-        "text1": "Papallona que s'acostuma a trobar en ambients humanitzats com conreus i parcs urbans. Vola durant tot l'any en generacions succesives. Tot i que és molt comuna a Catalunya, ha patit una regressió al litoral i prelitoral, possiblement a causa de la intensificació del paisatge i de l'augment de les sequeres estivals."
+        "text1": "Papallona que s'acostuma a trobar en ambients humanitzats com conreus i parcs urbans.<br/>Vola durant tot l'any en generacions succesives.<br/>Tot i que és molt comuna a Catalunya, ha patit una regressió al litoral i prelitoral, possiblement a causa de la intensificació del paisatge i de l'augment de les sequeres estivals."
     },
     {
         "id": 910,
@@ -348,7 +348,7 @@
         "imatge": "gonepteryx-small.png",
         "imgL": "no-image.jpg",
         "determinada": false,
-        "text1": "Degut a la facilitat de confusió entre les femelles de la cleòpatra i de la llimonera, qualsevol femella d'aquestes espècies queda anotada de forma genèrica com a Gonepteryx sp."
+        "text1": "Degut a la facilitat de confusió entre les femelles de la <a href='/especies/35'>cleòpatra</a> i de la <a href='/especies/34'>llimonera</a>, qualsevol femella d'aquestes espècies queda anotada de forma genèrica com a <em>Gonepteryx sp.</em>"
     },
     {
         "id": 90,
@@ -363,7 +363,7 @@
         "envergadura": 36,
         "SSI": 0.771,
         "TAO": -0.010,
-        "text1": "Espècie endèmica de la Mediterrània occidental, força comuna a Catalunya, especialment al litoral i prelitoral. Prefereix zones herboses a prop de boscos, però apareix també en altres ambients. A Barcelona la podem trobar a l'abril i al maig als parcs més propers a Collserola i als turons de la Rovira i del Carmel."
+        "text1": "Espècie endèmica de la Mediterrània occidental, força comuna a Catalunya, especialment al litoral i prelitoral.<br/>Prefereix zones herboses a prop de boscos, però apareix també en altres ambients.<br/>A Barcelona la podem trobar a l'abril i al maig als parcs més propers a Collserola i als turons de la Rovira i del Carmel."
     },
     {
         "id": 45,
@@ -378,7 +378,7 @@
         "envergadura": 45,
         "SSI": 0.938,
         "TAO": 0.606,
-        "text1": "Espècie migradora que podem trobar de febrer a octubre, tot i que es va fent més abundant a mida que avança la temporada. A la primavera arriben exemplars del Nord d'Àfrica i del Sud peninsular, i a la tardor en tornen a passar, aquest cop en direcció Sud. Prefereixen ambients secs i oberts, però és possible que aparegui a qualsevol parc, especialment cap al final de la temporada."
+        "text1": "Espècie migradora que podem trobar de febrer a octubre, tot i que es va fent més abundant a mida que avança la temporada. A la primavera arriben exemplars del nord d'Àfrica i del sud peninsular, i a la tardor en tornen a passar, aquest cop en direcció sud. Prefereixen ambients secs i oberts, però és possible que aparegui a qualsevol parc, especialment cap al final de la temporada."
     },
     {
         "id": 26,
@@ -595,7 +595,7 @@
         "envergadura": 80,
         "SSI": 3.107,
         "TAO": 0.627,
-        "text1": "Papallona típica de zones d'aiguamolls, és habitual trobar-la al delta del Llobregat, pel que puntualment se'n poden arribar a veure exemplars als parcs barcelonins més propers al mar. És una espècie migradora que no sobreviu a l'hivern barceloní. Els primers migrants arriben del Sud cap al juny, i s'estableixen aquí produint dues o tres generacions i arribant a ser força abundants cap al final de l'estiu."
+        "text1": "Papallona típica de zones d'aiguamolls, és habitual trobar-la al delta del Llobregat, pel que puntualment se'n poden arribar a veure exemplars als parcs barcelonins més propers al mar. És una espècie migradora que no sobreviu a l'hivern barceloní. Els primers migrants arriben del sud cap al juny, i s'estableixen aquí produint dues o tres generacions i arribant a ser força abundants cap al final de l'estiu."
     },
     {
         "id": 91,
