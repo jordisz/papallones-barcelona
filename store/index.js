@@ -11,7 +11,8 @@ export const state = () => ({
     ['Hesperiidae', '#a6625365'],
     ['Pieridae', '#a8bfb577'],
     ['Nymphalidae', '#f2cb9b99'],
-    ['Lycaenidae', '#9386a655']
+    ['Lycaenidae', '#9386a655'],
+    ['Crambidae', '#676767']
   ]
 })
 
