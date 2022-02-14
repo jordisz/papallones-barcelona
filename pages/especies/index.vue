@@ -1,5 +1,5 @@
 <template>
-  <div class="list-container">
+  <div v-if="isDataReady" class="list-container">
     <ul v-for="(familia, index) in familiesArray" :key="index" :style="$store.getters.getFamilyColor(familia.nom)">
       <h3 class="familia-nom">
         {{ familia.nom }}
@@ -26,14 +26,38 @@ export default {
       familiesArray: []
     }
   },
+  computed: {
+    especiesCiutat () {
+      const especiesArray = []
+      this.$store.getters.getTotalData.forEach((item) => {
+        especiesArray.push(item[0])
+      })
+      return especiesArray
+    },
+    isDataReady () {
+      return this.$store.getters.fetchedStatus
+    }
+  },
+  watch: {
+    isDataReady: function (oldVal, dataReady) {
+      if (this.especiesCiutat.length > 0) {
+        this.filterByFamily()
+      }
+    }
+  },
   mounted () {
-    this.filterByFamily()
+    if (this.isDataReady !== true) {
+      this.$store.dispatch('setInitialData')
+    }
+    if (this.isDataReady === true && this.especiesCiutat.length > 0) {
+      this.filterByFamily()
+    }
   },
   methods: {
     filterByFamily () {
-      /** Select all determinated species (id < 900) and sort them by id */
+      /** Select all determinated species (id < 900) observed in the city and sort them by id */
       const especiesSorted = [...Especies]
-        .filter(especie => especie.id < 900)
+        .filter(especie => especie.id < 900 && this.especiesCiutat.includes(especie.nomCientific))
         .sort((a, b) => a.id - b.id)
       const families = ['Papilionidae', 'Hesperiidae', 'Pieridae', 'Nymphalidae', 'Lycaenidae']
       families.forEach((familia) => {
