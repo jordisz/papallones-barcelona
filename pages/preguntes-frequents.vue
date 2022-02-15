@@ -50,9 +50,10 @@
       amb la única intenció de  mostrar la informació del mapa d'una altra manera, potser més fàcil de navegar.<br />
       La informació sobre cada espècie l'he extreta principalment de la <em>Guia de les papallones diürnes de Catalunya</em>,
       de Roger Vila, Constantí Stefanescu i José Manuel Sesma. Les miniatures estan elaborades a partir de fotos pròpies i
-      d'altres de Wikimedia Commons. Les fotografies de les fitxes individuals són originals, la majoria fetes als parcs
-      urbans de Barcelona.<br/>
-      La icona de la pàgina és d'<a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> i té llicència CC.
+      d'altres de Wikimedia Commons.<br/>
+      Quan no s'indica res, les fotografies de les fitxes individuals són originals, la majoria fetes als parcs urbans de
+      Barcelona. En cas contrari, faig servir fotos sota llicència Creative Commons i l'autor apareix acreditat a la imatge.<br/>
+      La icona de la pàgina és d'<a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> i també té llicència CC.
     </p>
   </div>
 </template>
