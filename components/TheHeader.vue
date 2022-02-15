@@ -24,7 +24,7 @@
         </li>
       </ul>
       <div class="toggler" @click="toggleMenu">
-        <img src="/ic_fluent_navigation_24_filled.png" alt="Obre menú" height="34px">
+        <img src="~/assets/ic_fluent_navigation_24_filled.png" alt="Obre menú" height="34px">
       </div>
     </div>
     <div v-if="mobileMenu" class="bottom">
