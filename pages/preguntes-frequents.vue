@@ -1,21 +1,6 @@
 <template>
   <div class="pf-container">
     <h2 class="pregunta">
-      D'on surten les dades d'aquesta web?
-    </h2>
-    <p>
-      Els recomptes de papallones corresponen a les observacions dels voluntaris de l'uBMS, tal i com es mostren al
-      <a href="https://ubms.creaf.cat/ca/les-meves-observacions2/">mapa del seu lloc web oficial</a>.
-      Aquesta web on ets ara és creació personal d'un dels voluntaris d'aquest projecte de ciència ciutadana,
-      amb la única intenció de  mostrar la informació del mapa d'una altra manera, potser més fàcil de navegar.<br />
-      La informació sobre cada espècie l'he extreta principalment de la <em>Guia de les papallones diürnes de Catalunya</em>,
-      de Roger Vila, Constantí Stefanescu i José Manuel Sesma. Les miniatures estan elaborades a partir de fotos pròpies i
-      d'altres de Wikimedia Commons. Les fotografies de les fitxes individuals són originals, la majoria fetes als parcs
-      urbans de Barcelona.<br/>
-      La icona de la pàgina és d'<a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> i té llicència CC.
-    </p>
-
-    <h2 class="pregunta">
       Quina informació ens aporta el recompte de papallones?
     </h2>
     <p>
@@ -53,6 +38,21 @@
       crear-ne un de nou.<br/> Només cal que tinguis la disponibilitat de poder visitar el teu parc o itinerari un cop a la setmana
       de març a setembre. Tots dos projectes organitzen activitats per a aprendre a fer els recomptes i a identificar les
       diferents espècies.
+    </p>
+
+    <h2 class="pregunta">
+      D'on surten les dades d'aquesta web?
+    </h2>
+    <p>
+      Els recomptes de papallones corresponen a les observacions dels voluntaris de l'uBMS, tal i com es mostren al
+      <a href="https://ubms.creaf.cat/ca/les-meves-observacions2/">mapa del seu lloc web oficial</a>.
+      Aquesta web on ets ara és creació personal d'un dels voluntaris d'aquest projecte de ciència ciutadana,
+      amb la única intenció de  mostrar la informació del mapa d'una altra manera, potser més fàcil de navegar.<br />
+      La informació sobre cada espècie l'he extreta principalment de la <em>Guia de les papallones diürnes de Catalunya</em>,
+      de Roger Vila, Constantí Stefanescu i José Manuel Sesma. Les miniatures estan elaborades a partir de fotos pròpies i
+      d'altres de Wikimedia Commons. Les fotografies de les fitxes individuals són originals, la majoria fetes als parcs
+      urbans de Barcelona.<br/>
+      La icona de la pàgina és d'<a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> i té llicència CC.
     </p>
   </div>
 </template>
