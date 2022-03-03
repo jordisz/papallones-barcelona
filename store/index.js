@@ -26,7 +26,8 @@ export const getters = {
   getTotalData: (state) => {
     const totalEspecies = []
     const totalArray = []
-    state.data.forEach((parc) => {
+    const data = JSON.parse(JSON.stringify(state.data)) // prevent mutation of state.data
+    data.forEach((parc) => {
       parc.observacions.forEach((especie) => {
         if (!totalEspecies.includes(especie[0])) {
           totalEspecies.push(especie[0])
@@ -89,7 +90,7 @@ export const actions = {
             arr[2] = arr[1].muestreos
             arr.splice(1, 1)
           })
-          parc.observacions = especies
+          parc.observacions = JSON.parse(JSON.stringify(especies)) // prevent especies array mutation
         })
         commit('populateData', parcList)
         commit('changeFetchedStatus', true)
