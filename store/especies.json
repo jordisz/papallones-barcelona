@@ -11,7 +11,7 @@
         "determinada": true,
         "envergadura": 44,
         "SSI": 0.707,
-        "TAO": 0.280,
+        "TAO": 0.28,
         "text1": "La papallona més abundant a la nostra ciutat.<br/>Les seves larves s'alimenten de brassicàcies com les cols, el nap o el rave, la qual cosa fa que sigui una espècie molt habitual en ambients humanitzats.<br/>Originària d'Europa, Àsia i el nord d'Àfrica, la seva relació amb els conreus humans l'ha fet arribar també a Amèrica i Austràlia, on és una plaga.<br/>La podem veure al llarg de tot l'any, ja que fa diverses generacions que es van solapant."
     },
     {
@@ -40,7 +40,7 @@
         "imgL": "l-megera-1.jpg",
         "determinada": true,
         "envergadura": 42,
-        "SSI": 0.460,
+        "SSI": 0.46,
         "TAO": 0.119,
         "text1": "Una de les papallones més comunes de Catalunya.<br/>Molt abundant en ambients oberts i pedregosos com la vessant barcelonina de Collserola, on és fàcil trobar-la en pistes i camins.<br/>Els mascles defensen territoris en llocs prominents i als cims dels turons.<br/>Les larves s'alimenten de diverses gramínies.<br/>La podem veure volar gairebé tot l'any, amb tres pics d'abundància cap al març-abril, al juny-juliol i a finals d'agost-setembre."
     },
@@ -142,7 +142,7 @@
         "imgL": "i-feisthamelii-1.jpg",
         "determinada": true,
         "envergadura": 70,
-        "SSI": 0.650,
+        "SSI": 0.65,
         "TAO": 0.437,
         "text1": "Espècie molt comuna, lligada a arbres i arbustos com el cirerer, el presseguer, la prunera o l'aranyoner.<br/>Els mascles presenten comportament territorial, defensant el seu espai al cim dels turons.<br/>Podem veure'n volar els primers exemplars ja al febrer, tot i que les generacions més abundants són les de l'estiu."
     },
@@ -248,7 +248,7 @@
         "determinada": true,
         "envergadura": 42,
         "SSI": 1.333,
-        "TAO": 0.600,
+        "TAO": 0.6,
         "text1": "Papallona comuna, habitual d'ambients agrícoles.<br/>Les seves larves s'alimenten de gran varietat de crucíferes.<br/>Fa dues generacions, una a finals d'hivern i l'altra al maig-juny, que pot ser més o menys abundant en funció de les pluges primaverals."
     },
     {
@@ -292,7 +292,7 @@
         "imgL": "g-rhamni-1.jpg",
         "determinada": true,
         "envergadura": 60,
-        "SSI": 0.600,
+        "SSI": 0.6,
         "TAO": 0.065,
         "text1": "Papallona amb preferència pels ambients forestals, però amb una gran mobilitat que fa que se'n puguin veure exemplars volant en altres tipus d'hàbitat.<br/>Com en el cas de la <a href='/especies/35'>cleòpatra</a>, fa una única generació que vola a partir del maig, hiberna, i es reprodueix a l'inici de la següent primavera."
     },
@@ -362,7 +362,7 @@
         "determinada": true,
         "envergadura": 36,
         "SSI": 0.771,
-        "TAO": -0.010,
+        "TAO": -0.01,
         "text1": "Espècie endèmica de la Mediterrània occidental, força comuna a Catalunya, especialment al litoral i prelitoral.<br/>Prefereix zones herboses a prop de boscos, però apareix també en altres ambients.<br/>A Barcelona la podem trobar a l'abril i al maig als parcs més propers a Collserola i als turons de la Rovira i del Carmel."
     },
     {
@@ -508,7 +508,7 @@
         "imgL": "b-circe-1.jpg",
         "determinada": true,
         "envergadura": 70,
-        "SSI": 0.860,
+        "SSI": 0.86,
         "TAO": 0.432,
         "text1": "Espècie força comuna a Catalunya, amb preferència per zones herboses amb presència d'arbres i arbusts.<br/>Les seves larves s'alimenten de diverses herbes.<br/>La podem veure volar a partir de començaments de juny fins a mitjans de juliol, moment en el que fa una pausa en la seva activitat fins a mitjans d'agost, quan torna a volar fins a l'octubre.<br/>Els mascles mostren un comportament territorial."
     },
@@ -537,7 +537,7 @@
         "determinada": true,
         "envergadura": 40,
         "SSI": 0.857,
-        "TAO": -0.020,
+        "TAO": -0.02,
         "text1": "Espècie pròpia d'ambients humits, tot i que alguns exemplars poden arribar a aparèixer als parcs de Barcelona.<br/>Fa una sola generació, que vola de març a abril."
     },
     {
@@ -608,7 +608,7 @@
         "imgL": "m-lachesis-1.jpg",
         "determinada": true,
         "envergadura": 53,
-        "SSI": 0.990,
+        "SSI": 0.99,
         "TAO": 0.456,
         "text1": "Papallona molt comuna a Catalunya, típica de prats i conreus, preferint zones amb herba alta.<br/>Cap a la costa i en ambients humanitzats esdevé més escassa.<br/>Vola entre el maig i el juny."
     },
@@ -623,7 +623,7 @@
         "imgL": "p-c-album-1.jpg",
         "determinada": true,
         "envergadura": 45,
-        "SSI": 0.920,
+        "SSI": 0.92,
         "TAO": -0.039,
         "text1": "Espècie típica de boscos de caducifolis i de ribera.<br/>Vola des de febrer-març fins a l'octubre, en tres generacions diferents.<br/>Les seves erugues s'alimenten de plantes com l'ortiga, l'om o el gatell.<br/>Els mascles tenen un comportament territorial."
     },
@@ -681,7 +681,7 @@
         "determinada": true,
         "envergadura": 30,
         "SSI": 0.707,
-        "TAO": 0.280,
+        "TAO": 0.28,
         "text1": "Petita papallona que acostumem a trobar en zones humides i boscoses.<br/>Vola en dues generacions, una entre finals d'abril i juny, i una altra entre agost i octubre.<br/>Els mascles tenen comportament territorial, i acostumen a posar-se sobre branques d'arbustos o herbes altes que defensen davant la presència d'altres mascles."
     },
     {
@@ -815,5 +815,20 @@
         "SSI": 1.055,
         "TAO": 0.757,
         "text1": ""
+    },
+    {
+        "id": 134,
+        "nomCientific": "Melitaea didyma",
+        "nomCat": "Damer roig",
+        "nomCast": "Doncella didima",
+        "nomEng": "Spotted fritillary",
+        "familia": "Nymphalidae",
+        "imatge": "satyridae-small.png",
+        "imgL": "no-image.jpg",
+        "determinada": true,
+        "envergadura": 45,
+        "SSI": 0.845,
+        "TAO": 0.807,
+        "text1": "Papallona que habita en ambients oberts com prats, conreus intensius i zones ruderals.<br/>Fa dues generacions, una a l'abril-juny i l'altra al juliol-setembre, però si les condicions són favorables pot fer-ne una tercera a començaments de la tardor.<br/>Les seves orugues s'alimenten del plantatge (<i>Plantago lanceolata</i>), entre d'altres plantes."
     }
 ]
