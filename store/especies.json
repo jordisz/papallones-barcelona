@@ -830,5 +830,20 @@
         "SSI": 0.845,
         "TAO": 0.807,
         "text1": "Papallona que habita en ambients oberts com prats, conreus intensius i zones ruderals.<br/>Fa dues generacions, una a l'abril-juny i l'altra al juliol-setembre, però si les condicions són favorables pot fer-ne una tercera a començaments de la tardor.<br/>Les seves orugues s'alimenten del plantatge (<i>Plantago lanceolata</i>), entre d'altres plantes."
+    },
+    {
+        "id": 168,
+        "nomCientific": "Glaucopsyche melanops",
+        "nomCat": "Turquesa mediterrània",
+        "nomCast": "Melanops",
+        "nomEng": "Black-Eyed Blue",
+        "familia": "Lycaenidae",
+        "imatge": "g-melanops-small.png",
+        "imgL": "g-melanops-1.jpg",
+        "determinada": true,
+        "envergadura": 27,
+        "SSI": 1.139,
+        "TAO": 0.589,
+        "text1": "Papallona que trobem en ambients oberts com matollars i prats amb herba baixa.<br/>Vola en una sola generació, entre començaments de març i finals de maig."
     }
 ]
