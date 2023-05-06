@@ -845,5 +845,17 @@
         "SSI": 1.139,
         "TAO": 0.589,
         "text1": "Papallona que trobem en ambients oberts com matollars i prats amb herba baixa.<br/>Vola en una sola generació, entre començaments de març i finals de maig."
+    },
+    {
+        "id": 915,
+        "nomCientific": "Glaucopsyche sp.",
+        "nomCat": "Turqueses",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Lycaenidae",
+        "imatge": "g-melanops-small.png",
+        "imgL": "no-image.jpg",
+        "determinada": false,
+        "text1": "A Catalunya hi conviuen dues espècies del gènere Glaucopsyche, la turquesa europea (<i>G. alexis</i>) i la turquesa mediterrània (<i>G. melanops</i>). Les dues són espècies primaverals.<br>Són molt similars, tot i que la turquesa mediterrània presenta unes taques marronoses al marge del revers de les ales, que són absents a la turquesa europea."
     }
 ]
