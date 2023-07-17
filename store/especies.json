@@ -237,6 +237,21 @@
         "text1": "Espècie mediterrània, pròpia de zones obertes i seques, de manera que només la trobem en parcs propers a Collserola i als turons del Carmel i de la Rovira.<br/>Fa una única generació entre juny i agost, tot i que les femelles poden arribar a viure fins el setembre."
     },
     {
+        "id": 89,
+        "nomCientific": "Pyronia tithonus",
+        "nomCat": "Saltabardisses europea",
+        "nomCast": "Lobito jaspeado",
+        "nomEng": "Gatekeeper",
+        "familia": "Nymphalidae",
+        "imatge": "mistery.png",
+        "imgL": "no-image.jpg",
+        "determinada": true,
+        "envergadura": 35,
+        "SSI": 0.999,
+        "TAO": 0.39,
+        "text1": "Una de les papallones més abundants de Catalunya, tot i que és rara a baixa altitud.<br/>En zones baixes com Barcelona, vola entre mitjans de juny i finals de juliol."
+    },
+    {
         "id": 51,
         "nomCientific": "Euchloe crameri",
         "nomCat": "Marbrada comuna",
