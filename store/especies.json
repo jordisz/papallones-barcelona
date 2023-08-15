@@ -872,5 +872,17 @@
         "imgL": "no-image.jpg",
         "determinada": false,
         "text1": "A Catalunya hi conviuen dues espècies del gènere Glaucopsyche, la turquesa europea (<i>G. alexis</i>) i la turquesa mediterrània (<i>G. melanops</i>). Les dues són espècies primaverals.<br>Són molt similars, tot i que la turquesa mediterrània presenta unes taques marronoses al marge del revers de les ales, que són absents a la turquesa europea."
+    },
+    {
+        "id": 916,
+        "nomCientific": "Hipparchia sp.",
+        "nomCat": "Faunes",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Nymphalidae",
+        "imatge": "h-statilinus-small.png",
+        "imgL": "no-image.jpg",
+        "determinada": false,
+        "text1": "Als parcs de Barcelona hi podem trobar tres espècies del gènere <i>Hipparchia</i>: el faune bru, el faune gran i el faune de ziga-zaga (i molt rarament s'en podria arribar a veure una quarta, el faune lleonat). De vegades, si les circumstàncies no són bones (la papallona està en vol o a massa distància) és complicat determinar-ne l'espècie amb seguretat."
     }
 ]
