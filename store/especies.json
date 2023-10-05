@@ -598,6 +598,19 @@
         "text1": "Petita papallona que podem trobar en prats i clarianes.<br/>Les seves larves s'alimenten de diverses plantes, com l'esbarzer, la maduixera o el gram negre.<br/>Vola en dues generacions, la primera entre març i maig, i la segona entre agost i setembre."
     },
     {
+        "id": 56,
+        "nomCientific": "Danaus plexippus",
+        "nomCat": "Monarca",
+        "nomCast": "Mariposa monarca",
+        "nomEng": "Monarch Butterfly",
+        "familia": "Nymphalidae",
+        "imatge": "mistery.png",
+        "imgL": "no-image.jpg",
+        "determinada": true,
+        "envergadura": 100,
+        "text1": "La monarca és una papallona gran i espectacular. A Catalunya pot aparèixer ocasionalment, normalment per causa d'alliberaments que es fan en celebracions de casaments. Tot i això, sembla ser que cada cop n'és més freqüent l'arribada d'exemplars provinents de poblacions del sud de la península Ibèrica."
+    },
+    {
         "id": 57,
         "nomCientific": "Danaus chrysippus",
         "nomCat": "Papallona tigre",
