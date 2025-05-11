@@ -897,5 +897,17 @@
         "imgL": "no-image.jpg",
         "determinada": false,
         "text1": "Als parcs de Barcelona hi podem trobar tres espècies del gènere <i>Hipparchia</i>: el faune bru, el faune gran i el faune de ziga-zaga (i molt rarament s'en podria arribar a veure una quarta, el faune lleonat). De vegades, si les circumstàncies no són bones (la papallona està en vol o a massa distància) és complicat determinar-ne l'espècie amb seguretat."
+    },
+    {
+        "id": 917,
+        "nomCientific": "Pieridae",
+        "nomCat": "Pièrids",
+        "nomCast": "",
+        "nomEng": "",
+        "familia": "Pieridae",
+        "imatge": "pieris-small.png",
+        "imgL": "no-image.jpg",
+        "determinada": false,
+        "text1": ""
     }
 ]
