@@ -598,6 +598,21 @@
     "text1": "Petita papallona que podem trobar en prats i clarianes.<br/>Les seves larves s'alimenten de diverses plantes, com l'esbarzer, la maduixera o el gram negre.<br/>Vola en dues generacions, la primera entre març i maig, i la segona entre agost i setembre."
   },
   {
+    "id": 16,
+    "nomCientific": "Pyrgus armoricanus",
+    "nomCat": "Merlet ruderal",
+    "nomCast": "Ajedrezada armoricana",
+    "nomEng": "Oberthür's Grizzled Skipper",
+    "familia": "Hesperiidae",
+    "imatge": "pyrgus-small.png",
+    "imgL": "no-image.jpg",
+    "determinada": true,
+    "envergadura": 27,
+    "SSI": 1.595,
+    "TAO": 0.712,
+    "text1": "Petita papallona que podem trobar en prats i clarianes.<br>Les seves larves s'alimenten de plantes dels gèneres <i>Potentilla</i> i <i>Filipendula</i>.<br>És polivoltina, amb generacions a l'abril-maig, juliol-agost i setembre-octubre."
+  },
+  {
     "id": 56,
     "nomCientific": "Danaus plexippus",
     "nomCat": "Monarca",
@@ -873,6 +888,21 @@
     "SSI": 1.139,
     "TAO": 0.589,
     "text1": "Papallona que trobem en ambients oberts com matollars i prats amb herba baixa.<br/>Vola en una sola generació, entre començaments de març i finals de maig."
+  },
+  {
+    "id": 117,
+    "nomCientific": "Argynnis pandora",
+    "nomCat": "Pandora",
+    "nomCast": "Nacarada pandora",
+    "nomEng": "Cardinal",
+    "familia": "Nymphalidae",
+    "imatge": "satyridae-small.png",
+    "imgL": "no-image.jpg",
+    "determinada": true,
+    "envergadura": 61,
+    "SSI": 1.24,
+    "TAO": 0.624,
+    "text1": "Papallona d'ambients oberts, que a Catalunya té poblacions estables a les muntanyes del Sud i al Pirineu. Tot i així, cap finals d'estiu poden aparèixer a molts altres indrets exemplars dispersius.<br>Es considera una especialista de les violes, i els adults es mostren molt atrets per flors de compostes com els cards.<br>Vola en una sola generació, des del maig fins l'octubre."
   },
   {
     "id": 915,
