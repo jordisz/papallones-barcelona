@@ -830,6 +830,21 @@
     "text1": ""
   },
   {
+    "id": 153,
+    "nomCientific": "Callophrys avis",
+    "nomCat": "Verdeta d'ull ros",
+    "nomCast": "Cejirubia",
+    "nomEng": "Chapman's Green Hairstreak",
+    "familia": "Lycaenidae",
+    "imatge": "lycaenidae-small.png",
+    "imgL": "no-image.jpg",
+    "determinada": true,
+    "envergadura": 27,
+    "SSI": 0.923,
+    "TAO": 0.476,
+    "text1": ""
+  },
+  {
     "id": 188,
     "nomCientific": "Lysandra hispana",
     "nomCat": "Griseta mediterrània",
@@ -936,6 +951,30 @@
     "nomEng": "",
     "familia": "Pieridae",
     "imatge": "pieris-small.png",
+    "imgL": "no-image.jpg",
+    "determinada": false,
+    "text1": ""
+  },
+  {
+    "id": 918,
+    "nomCientific": "Vanessa sp.",
+    "nomCat": "Vanessa",
+    "nomCast": "",
+    "nomEng": "",
+    "familia": "Nymphalidae",
+    "imatge": "mistery.png",
+    "imgL": "no-image.jpg",
+    "determinada": false,
+    "text1": ""
+  },
+  {
+    "id": 919,
+    "nomCientific": "Callophrys sp.",
+    "nomCat": "Verdetes",
+    "nomCast": "",
+    "nomEng": "",
+    "familia": "Lycaenidae",
+    "imatge": "mistery.png",
     "imgL": "no-image.jpg",
     "determinada": false,
     "text1": ""
