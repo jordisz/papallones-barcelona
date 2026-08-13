@@ -978,5 +978,17 @@
     "imgL": "no-image.jpg",
     "determinada": false,
     "text1": ""
+  },
+  {
+    "id": 920,
+    "nomCientific": "Hesperiidae",
+    "nomCat": "Hespèrids",
+    "nomCast": "",
+    "nomEng": "",
+    "familia": "Hesperiidae",
+    "imatge": "mistery.png",
+    "imgL": "no-image.jpg",
+    "determinada": false,
+    "text1": ""
   }
 ]
