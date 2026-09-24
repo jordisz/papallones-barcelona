@@ -743,6 +743,21 @@
     "text1": "Espècie força comuna, que pot ocupar diferents tipus d'hàbitat, entre els quals les zones obertes i clarianes de bosc.<br/>Acostuma a aturar-se als troncs dels arbres, i els mascles presenten comportament territorial.<br/>Vola en una única generació, des de finals de maig fins la tardor."
   },
   {
+    "id": 106,
+    "nomCientific": "Boloria dia",
+    "nomCat": "Donzella violeta",
+    "nomCast": "Perlada violeta",
+    "nomEng": "Weaver's fritillary",
+    "familia": "Nymphalidae",
+    "imatge": "mistery.png",
+    "imgL": "no-image.jpg",
+    "determinada": true,
+    "envergadura": 34,
+    "SSI": 1.057,
+    "TAO": 0.548,
+    "text1": "Papallona que habita en clarianes de bosc, zones de conreu i ambients ruderals, principalment a la muntanya mitjana.<br>Polivoltina, fa tres generacions des de principis de primavera fins ben entrada la tardor.<br>És una especialista de les violes i els pensaments."
+  },
+  {
     "id": 914,
     "nomCientific": "Melanargia sp.",
     "nomCat": "Escacs",
